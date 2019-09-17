@@ -1,4 +1,4 @@
 [submodule "schemas"]
 	path = schemas
 	url = https://github.com/tmforum-rand/schemas.git
-	branch = master
+	branch = candidates
