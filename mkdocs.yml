@@ -142,7 +142,7 @@ pages:
   - {Notification: Common/Notification.md}
   - {Error: Common/Error.md}
   - {Response: Common/Response.md}
-  Customer:
+- Customer:
   - {ProductOrderStateType: Customer/ProductOrderStateType.md}
   - {SearchTimeSlotStateType: Customer/SearchTimeSlotStateType.md}
   - {ShoppingCartRef: Customer/ShoppingCartRef.md}
@@ -251,7 +251,7 @@ pages:
   - {SettlementNoteImage: Customer/SettlementNoteImage.md}
   - {BalanceDeduct: Customer/BalanceDeduct.md}
   - {BucketBalance: Customer/BucketBalance.md}
-  EngagedParty:
+- EngagedParty:
   - {AgreementSpecificationRelationship: EngagedParty/AgreementSpecificationRelationship.md}
   - {SLAViolationRef: EngagedParty/SLAViolationRef.md}
   - {OrganizationChildRelationship: EngagedParty/OrganizationChildRelationship.md}
@@ -328,14 +328,14 @@ pages:
   - {RelatedParty: EngagedParty/RelatedParty.md}
   - {PartnershipType: EngagedParty/PartnershipType.md}
   - {BankAccountTransferMethod: EngagedParty/BankAccountTransferMethod.md}
-  MarketingSales:
+- MarketingSales:
   - {SalesLead: MarketingSales/SalesLead.md}
   - {SalesOpportunityRef: MarketingSales/SalesOpportunityRef.md}
   - {SalesLeadStateType: MarketingSales/SalesLeadStateType.md}
   - {MarketingCampaignRef: MarketingSales/MarketingCampaignRef.md}
   - {SalesLeadPriorityType: MarketingSales/SalesLeadPriorityType.md}
   - {MarketSegmentRef: MarketingSales/MarketSegmentRef.md}
-  Product:
+- Product:
   - {AlternateProduct: Product/AlternateProduct.md}
   - {ProductOfferingQualificationStateType: Product/ProductOfferingQualificationStateType.md}
   - {UsageConsumptionReportRequestIn: Product/UsageConsumptionReportRequestIn.md}
@@ -437,7 +437,7 @@ pages:
   - {LoyaltyProgramProductSpecRef: Product/LoyaltyProgramProductSpecRef.md}
   - {NetworkProductRef: Product/NetworkProductRef.md}
   - {ProductOfferingQualificationRef: Product/ProductOfferingQualificationRef.md}
-  Resource:
+- Resource:
   - {ResourceOrderItem: Resource/ResourceOrderItem.md}
   - {ResourceOrderItemRelationship: Resource/ResourceOrderItemRelationship.md}
   - {ResourceRelationship: Resource/ResourceRelationship.md}
@@ -455,7 +455,7 @@ pages:
   - {ResourceRef: Resource/ResourceRef.md}
   - {ResourceSpecificationRef: Resource/ResourceSpecificationRef.md}
   - {ResourceAlarmRef: Resource/ResourceAlarmRef.md}
-  Service:
+- Service:
   - {BaseService: Service/BaseService.md}
   - {ServiceCharacteristic: Service/ServiceCharacteristic.md}
   - {ServiceQualificationItem: Service/ServiceQualificationItem.md}
