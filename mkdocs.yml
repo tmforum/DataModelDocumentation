@@ -3,7 +3,7 @@ google_analytics: [UA-3242766-37, tmforum-schemas.readthedocs.io]
 pages:
 - {Home: index.md}
 - {How to: howto.md}
-- {Schemas Overview: overview.md}
+- {Schemas Overview: overview.html}
 - Common:
   - {EntityCategory: Common/EntityCategory.md}
   - {ChangeRequestSpecification: Common/ChangeRequestSpecification.md}
