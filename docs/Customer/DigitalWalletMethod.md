@@ -24,16 +24,23 @@ No Data Model yet
 ### This schema references the following schemas directly:
 
 -Entity
-DigitalWalletDetails
-TimePeriod
-RelatedParty
 
-### This schema is referenced directly or indirectly by the following schemas:
+-DigitalWalletDetails
+
+-TimePeriod
+
+-RelatedParty
+
+### This schema references directly or indirectly by the following schemas:
 
 -EntityRef
--TimePeriod
--RelatedParty
+
 -DigitalWalletDetails
+
+-RelatedParty
+
+-TimePeriod
+
 -Entity
 
 
@@ -44,6 +51,6 @@ Examples coming soon
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 18/09/2019 01:47:28 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 18/09/2019 02:29:59 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

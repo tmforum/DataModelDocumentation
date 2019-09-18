@@ -20,61 +20,108 @@ No Data Model yet
 ### This schema is referenced in the following schemas:
 
 -SalesLead
+
 -ProductInventoryRelationship
+
 -ProductRefOrValue
+
 -ProductRequest
+
 -BalanceReserve
+
 -BalanceTopupBody
+
 -BalanceDeductRollback
+
 -BalanceUnreserve
+
 -BalanceTransferBody
+
 -BalanceAdjustmentBody
+
 -BalanceActivity
+
 -BalanceDeduct
 
 ### This schema references the following schemas directly:
 
 -EntityRef
 
-### This schema is referenced directly or indirectly by the following schemas:
+### This schema references directly or indirectly by the following schemas:
+
+-Money
+
+-ProductOfferingRef
+
+-ProductStatusType
+
+-RelatedParty
+
+-BillingAccountRef
 
 -BalanceAdjustmentBody
--MarketSegmentRef
--ProductRefOrValue
--SalesLeadPriorityType
--Money
--RelatedParty
--ProductRef
--SalesLead
--Entity
--MarketingCampaignRef
--BalanceDeductRollback
--EntityRef
--BucketBalanceRef
--TimePeriod
--BalanceDeduct
--TargetProductSchema
--ProductInventoryRelationship
--ProductSpecificationRef
--BillingAccountRef
--SalesLeadStateType
--BalanceActionRequestRef
--BalanceDeductRef
--BalanceTransferBody
--ProductOfferingRef
--BalanceReserveRef
--BalanceReserve
--PartyAccountRef
--SalesOpportunityRef
--Product
--CategoryRef
--QuantityType
+
 -BalanceTopupBody
--BalanceUnreserve
+
+-ProductSpecificationRef
+
+-QuantityType
+
+-ProductRef
+
+-BalanceDeduct
+
 -ProductRequest
+
+-EntityRef
+
+-ProductInventoryRelationship
+
+-MarketSegmentRef
+
+-SalesLeadStateType
+
 -BalanceActivity
+
+-SalesLead
+
+-MarketingCampaignRef
+
+-Entity
+
+-SalesOpportunityRef
+
+-Product
+
+-BalanceReserve
+
+-BucketBalanceRef
+
+-CategoryRef
+
+-TargetProductSchema
+
+-TimePeriod
+
 -ChannelRef
--ProductStatusType
+
+-ProductRefOrValue
+
+-BalanceUnreserve
+
+-BalanceTransferBody
+
+-SalesLeadPriorityType
+
+-PartyAccountRef
+
+-BalanceReserveRef
+
+-BalanceDeductRollback
+
+-BalanceDeductRef
+
+-BalanceActionRequestRef
 
 
 
@@ -84,6 +131,6 @@ Examples coming soon
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 18/09/2019 01:47:28 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 18/09/2019 02:29:59 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

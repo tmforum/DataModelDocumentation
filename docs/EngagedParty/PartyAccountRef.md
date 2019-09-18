@@ -20,46 +20,78 @@ No Data Model yet
 ### This schema is referenced in the following schemas:
 
 -BalanceTransferRequest
+
 -BalanceReserve
+
 -BalanceDeductRollback
+
 -BalanceAdjustmentRequest
+
 -BalanceTopupRequest
+
 -BalanceActivity
+
 -BalanceDeduct
+
 -BucketBalance
 
 ### This schema references the following schemas directly:
 
 -Entity
 
-### This schema is referenced directly or indirectly by the following schemas:
+### This schema references directly or indirectly by the following schemas:
+
+-TimePeriodType
 
 -PaymentMethodRefOrValue
--BalanceAdjustmentBody
--TimePeriodType
+
 -RelatedParty
--ProductRef
--Entity
--RelatedPartyRef
--BalanceDeductRollback
--BalanceTopupRequest
--EntityRef
--BucketBalanceRef
--TimePeriod
--BalanceDeduct
--BalanceTransferRequest
--BalanceActionRequestRef
--BalanceDeductRef
--BalanceTransferBody
--BalanceAdjustmentRequest
--BalanceReserveRef
--BalanceReserve
--PartyAccountRef
--QuantityType
+
+-BalanceAdjustmentBody
+
 -BalanceTopupBody
--BalanceActivity
+
+-QuantityType
+
 -BucketBalance
+
+-ProductRef
+
+-BalanceDeduct
+
+-EntityRef
+
+-BalanceActivity
+
+-BalanceTransferRequest
+
+-Entity
+
+-BalanceReserve
+
+-BucketBalanceRef
+
+-TimePeriod
+
 -ChannelRef
+
+-RelatedPartyRef
+
+-BalanceTransferBody
+
+-BalanceAdjustmentRequest
+
+-BalanceTopupRequest
+
+-PartyAccountRef
+
+-BalanceReserveRef
+
+-BalanceDeductRollback
+
+-BalanceDeductRef
+
+-BalanceActionRequestRef
 
 
 
@@ -69,6 +101,6 @@ Examples coming soon
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 18/09/2019 01:47:28 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 18/09/2019 02:29:59 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

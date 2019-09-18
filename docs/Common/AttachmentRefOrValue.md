@@ -20,26 +20,38 @@ No Data Model yet
 ### This schema is referenced in the following schemas:
 
 -TaxExemptionCertificate
+
 -IndividualIdentification
+
 -OrganizationIdentification
 
 ### This schema references the following schemas directly:
 
 -Entity
-ContentType
-Quantity
-TimePeriod
 
-### This schema is referenced directly or indirectly by the following schemas:
+-ContentType
+
+-Quantity
 
 -TimePeriod
--ContentType
+
+### This schema references directly or indirectly by the following schemas:
+
 -IndividualIdentification
--Quantity
--Entity
--AttachmentRefOrValue
+
 -OrganizationIdentification
+
+-TimePeriod
+
+-Entity
+
+-ContentType
+
 -TaxExemptionCertificate
+
+-AttachmentRefOrValue
+
+-Quantity
 
 
 
@@ -49,6 +61,6 @@ Examples coming soon
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 18/09/2019 01:47:28 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 18/09/2019 02:29:59 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

@@ -20,39 +20,64 @@ No Data Model yet
 ### This schema is referenced in the following schemas:
 
 -ProductOrderItem
+
 -OrderItem
+
 -ServiceOrderItem
 
 ### This schema references the following schemas directly:
 
 -Entity
 
-### This schema is referenced directly or indirectly by the following schemas:
+### This schema references directly or indirectly by the following schemas:
+
+-ServiceOrderActionType
+
+-ProductOfferingQualificationItemRef
+
+-ProductOfferingRef
+
+-ProductStatusType
+
+-BillingAccountRef
+
+-ServiceOrderStateType
+
+-ProductSpecificationRef
+
+-BaseService
+
+-ProductRef
+
+-AppointmentRef
+
+-ProductOrderItemStateType
+
+-EntityRef
+
+-ServiceSpecificationRef
+
+-Entity
+
+-Product
+
+-ProductOrderItem
+
+-TargetProductSchema
 
 -ProductRefOrValue
+
 -TargetServiceSchema
--BaseService
--AppointmentRef
--ProductRef
--Entity
--ServiceSpecificationRef
--EntityRef
+
 -ServiceOrderItem
--ProductOfferingQualificationItemRef
--ServiceStateType
--ServiceOrderActionType
--TargetProductSchema
--ProductOrderItem
--ProductSpecificationRef
+
 -OrderItemActionType
--BillingAccountRef
--OrderItem
--ServiceOrderStateType
--ProductOrderItemStateType
--ProductOfferingRef
--Product
--ProductStatusType
+
 -QuoteItemRef
+
+-OrderItem
+
+-ServiceStateType
 
 
 
@@ -62,6 +87,6 @@ Examples coming soon
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 18/09/2019 01:47:28 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 18/09/2019 02:29:59 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

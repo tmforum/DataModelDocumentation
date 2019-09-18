@@ -20,26 +20,38 @@ No Data Model yet
 ### This schema is referenced in the following schemas:
 
 -Service
+
 -ServiceOrderItem
 
 ### This schema references the following schemas directly:
 
 -Entity
-ServiceStateType
-ServiceSpecificationRef
 
-### This schema is referenced directly or indirectly by the following schemas:
+-ServiceStateType
+
+-ServiceSpecificationRef
+
+### This schema references directly or indirectly by the following schemas:
+
+-ServiceOrderActionType
+
+-Service
+
+-ServiceOrderStateType
+
+-BaseService
+
+-AppointmentRef
 
 -TargetServiceSchema
--BaseService
--ServiceOrderStateType
--AppointmentRef
--Entity
--ServiceSpecificationRef
+
 -ServiceOrderItem
+
+-ServiceSpecificationRef
+
 -ServiceStateType
--ServiceOrderActionType
--Service
+
+-Entity
 
 
 
@@ -49,6 +61,6 @@ Examples coming soon
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 18/09/2019 01:47:28 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 18/09/2019 02:29:59 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

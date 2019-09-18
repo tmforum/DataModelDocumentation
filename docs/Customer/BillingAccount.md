@@ -25,23 +25,37 @@ No Data Model yet
 
 -PartyAccount
 
-### This schema is referenced directly or indirectly by the following schemas:
+### This schema references directly or indirectly by the following schemas:
+
+-AccountBalance
 
 -BillFormatRef
--PaymentMethodRef
--TimePeriod
--BillFormat
--AccountBalance
--BillingCycleSpecificationRef
+
 -Money
--FinancialAccountRef
--Entity
--BillStructure
--BillingCycleSpecificationRefOrValue
--BillingCycleSpecification
+
 -PartyAccount
--BillFormatRefOrValue
+
 -Account
+
+-BillingCycleSpecificationRef
+
+-BillingCycleSpecification
+
+-BillingCycleSpecificationRefOrValue
+
+-BillStructure
+
+-PaymentMethodRef
+
+-FinancialAccountRef
+
+-BillFormatRefOrValue
+
+-TimePeriod
+
+-Entity
+
+-BillFormat
 
 
 
@@ -51,6 +65,6 @@ Examples coming soon
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 18/09/2019 01:47:28 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 18/09/2019 02:29:59 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

@@ -20,27 +20,40 @@ No Data Model yet
 ### This schema is referenced in the following schemas:
 
 -Individual
+
 -RelatedPartyRefOrValue
+
 -Organization
 
 ### This schema references the following schemas directly:
 
 -Entity
 
-### This schema is referenced directly or indirectly by the following schemas:
+### This schema references directly or indirectly by the following schemas:
+
+-OrganizationStateType
+
+-EntityRef
+
+-Organization
+
+-OrganizationRef
+
+-IndividualStateType
+
+-PartyRef
+
+-OrganizationParentRelationship
+
+-Party
+
+-TimePeriod
+
+-Entity
+
+-RelatedPartyRefOrValue
 
 -Individual
--OrganizationRef
--RelatedPartyRefOrValue
--OrganizationParentRelationship
--TimePeriod
--EntityRef
--IndividualStateType
--OrganizationStateType
--Party
--PartyRef
--Entity
--Organization
 
 
 
@@ -50,6 +63,6 @@ Examples coming soon
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 18/09/2019 01:47:28 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 18/09/2019 02:29:59 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

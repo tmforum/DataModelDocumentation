@@ -20,32 +20,50 @@ No Data Model yet
 ### This schema is referenced in the following schemas:
 
 -ProductPrice
+
 -PriceAlteration
+
 -QuotePrice
+
 -CartPrice
+
 -OrderPrice
+
 -OrderItemPrice
 
 ### This schema references the following schemas directly:
 
 -Entity
-Money
-Money
 
-### This schema is referenced directly or indirectly by the following schemas:
+-Money
+
+-Money
+
+### This schema references directly or indirectly by the following schemas:
+
+-PriceAlteration
+
+-Price
 
 -EntityRef
--BillingAccountRef
--OrderItemPrice
--PriceAlteration
--ProductPrice
+
 -Money
--QuotePrice
--Price
+
 -CartPrice
--Entity
+
+-OrderItemPrice
+
 -ProductOfferingPriceRef
+
+-BillingAccountRef
+
+-Entity
+
 -OrderPrice
+
+-ProductPrice
+
+-QuotePrice
 
 
 
@@ -55,6 +73,6 @@ Examples coming soon
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 18/09/2019 01:47:28 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 18/09/2019 02:29:59 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

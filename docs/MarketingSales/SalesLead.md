@@ -24,36 +24,62 @@ No Data Model yet
 ### This schema references the following schemas directly:
 
 -Entity
-SalesLeadStateType
-SalesLeadPriorityType
-Money
-TimePeriod
-MarketingCampaignRef
-MarketSegmentRef
-ChannelRef
-ProductOfferingRef
-ProductSpecificationRef
-CategoryRef
-SalesOpportunityRef
-ProductRef
 
-### This schema is referenced directly or indirectly by the following schemas:
+-SalesLeadStateType
+
+-SalesLeadPriorityType
+
+-Money
+
+-TimePeriod
+
+-MarketingCampaignRef
+
+-MarketSegmentRef
+
+-ChannelRef
+
+-ProductOfferingRef
 
 -ProductSpecificationRef
--EntityRef
--TimePeriod
--MarketSegmentRef
+
 -CategoryRef
--SalesLeadStateType
--Money
--SalesLeadPriorityType
--ProductOfferingRef
--ProductRef
--ChannelRef
--Entity
--MarketingCampaignRef
--TargetProductSchema
+
 -SalesOpportunityRef
+
+-ProductRef
+
+### This schema references directly or indirectly by the following schemas:
+
+-EntityRef
+
+-ProductSpecificationRef
+
+-Money
+
+-ProductOfferingRef
+
+-CategoryRef
+
+-MarketSegmentRef
+
+-SalesLeadStateType
+
+-SalesLeadPriorityType
+
+-TargetProductSchema
+
+-ProductRef
+
+-TimePeriod
+
+-MarketingCampaignRef
+
+-Entity
+
+-SalesOpportunityRef
+
+-ChannelRef
 
 
 
@@ -63,6 +89,6 @@ Examples coming soon
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 18/09/2019 01:47:28 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 18/09/2019 02:29:59 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

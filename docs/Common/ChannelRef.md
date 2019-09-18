@@ -20,52 +20,90 @@ No Data Model yet
 ### This schema is referenced in the following schemas:
 
 -SalesLead
+
 -ProductOfferingQualification
+
 -Recommendation
+
 -TroubleTicket
+
 -QueryProductRecommendation
+
 -BalanceTopupBody
+
 -BalanceTransferBody
 
 ### This schema references the following schemas directly:
 
 -EntityRef
 
-### This schema is referenced directly or indirectly by the following schemas:
+### This schema references directly or indirectly by the following schemas:
+
+-ProductOrderRef
+
+-QueryProductRecommendation
+
+-Money
+
+-ProductOfferingRef
+
+-ProductOfferingQualification
+
+-RelatedParty
+
+-BalanceTopupBody
+
+-ProductSpecificationRef
+
+-ShoppingCartRef
+
+-QuantityType
+
+-ProductRef
+
+-EntityRef
+
+-Place
 
 -MarketSegmentRef
--SalesLeadPriorityType
--Money
--GeographicLocationRef
--RelatedParty
--ProductRef
--SalesLead
--Entity
--RelatedPartyRef
--MarketingCampaignRef
--EntityRef
--QueryProductRecommendation
--TimePeriod
--PlaceRef
--TroubleTicket
--TargetProductSchema
--TaskStateType
--ProductOrderRef
--ProductSpecificationRef
--ProductOfferingQualification
+
 -SalesLeadStateType
--BalanceTransferBody
--ProductOfferingRef
--Recommendation
--RelatedPlaceRefOrValue
+
+-SalesLead
+
+-TaskStateType
+
+-MarketingCampaignRef
+
+-Entity
+
 -SalesOpportunityRef
--Place
+
 -CategoryRef
--QuantityType
--BalanceTopupBody
+
+-TargetProductSchema
+
+-TroubleTicket
+
+-Recommendation
+
+-TimePeriod
+
 -TroubleTicketStatusType
+
+-PlaceRef
+
 -ChannelRef
--ShoppingCartRef
+
+-RelatedPartyRef
+
+-BalanceTransferBody
+
+-GeographicLocationRef
+
+-RelatedPlaceRefOrValue
+
+-SalesLeadPriorityType
 
 
 
@@ -75,6 +113,6 @@ Examples coming soon
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 18/09/2019 01:47:28 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 18/09/2019 02:29:59 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

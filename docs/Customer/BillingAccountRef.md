@@ -20,54 +20,94 @@ No Data Model yet
 ### This schema is referenced in the following schemas:
 
 -PartyBill
+
 -Product
+
 -ProductPrice
+
 -ProductOrder
+
 -Bill
+
 -ProductOrderItem
+
 -CustomerBill
+
 -OrderItem
+
 -OrderPrice
+
 -OrderItemPrice
 
 ### This schema references the following schemas directly:
 
 -Entity
 
-### This schema is referenced directly or indirectly by the following schemas:
+### This schema references directly or indirectly by the following schemas:
+
+-Money
+
+-ProductOfferingRef
+
+-ProductOfferingQualificationItemRef
+
+-ProductOrder
+
+-ProductStatusType
+
+-OrderItemPrice
+
+-ProductOfferingPriceRef
+
+-PartyBill
+
+-BillingAccountRef
+
+-ProductSpecificationRef
+
+-ProductRef
+
+-AppointmentRef
+
+-ProductOrderItemStateType
+
+-EntityRef
 
 -PaymentMethodRef
--OrderItemPrice
--ProductRefOrValue
--QuoteItemRef
--Money
--AppointmentRef
--Price
--ProductRef
--Entity
--OrderPrice
--EntityRef
--PartyBill
--TimePeriod
--ProductOfferingQualificationItemRef
--AccountBalance
--ProductPrice
--FinancialAccountRef
--TargetProductSchema
--ProductOrderItem
--ProductSpecificationRef
--OrderItemActionType
--Bill
--OrderItem
--BillingAccountRef
--ProductOrderItemStateType
--ProductOfferingRef
--ProductOrder
--Product
+
 -ProductOrderStateType
+
 -CustomerBill
--ProductStatusType
--ProductOfferingPriceRef
+
+-Entity
+
+-Product
+
+-ProductPrice
+
+-AccountBalance
+
+-Bill
+
+-ProductOrderItem
+
+-TargetProductSchema
+
+-FinancialAccountRef
+
+-TimePeriod
+
+-OrderPrice
+
+-ProductRefOrValue
+
+-Price
+
+-OrderItemActionType
+
+-QuoteItemRef
+
+-OrderItem
 
 
 
@@ -77,6 +117,6 @@ Examples coming soon
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 18/09/2019 01:47:28 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 18/09/2019 02:29:59 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

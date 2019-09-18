@@ -20,39 +20,64 @@ No Data Model yet
 ### This schema is referenced in the following schemas:
 
 -RelatedGeographicAddressRefOrValue
+
 -RelatedGeographicLocationRefOrValue
+
 -Appointment
+
 -QueryProductRecommendation
+
 -SearchTimeSlot
 
 ### This schema references the following schemas directly:
 
 -PlaceRef
-Place
 
-### This schema is referenced directly or indirectly by the following schemas:
+-Place
+
+### This schema references directly or indirectly by the following schemas:
+
+-ProductOrderRef
+
+-QueryProductRecommendation
+
+-RelatedGeographicAddressRefOrValue
+
+-CategoryRef
+
+-CalendarEventRef
+
+-AppointmentStateType
+
+-RelatedParty
+
+-TimePeriod
+
+-RelatedGeographicLocationRefOrValue
+
+-ShoppingCartRef
+
+-PlaceRef
+
+-ChannelRef
 
 -Appointment
--CalendarEventRef
--SearchTimeSlotStateType
--RelatedParty
--RelatedGeographicAddressRefOrValue
--RelatedPlaceRefOrValue
--Entity
+
 -RelatedPartyRef
--AppointmentStateType
--SearchTimeSlot
--QueryProductRecommendation
--Place
--TimePeriod
--CategoryRef
+
 -EntityRef
--PlaceRef
--RelatedGeographicLocationRefOrValue
--ChannelRef
+
+-SearchTimeSlot
+
+-Place
+
+-RelatedPlaceRefOrValue
+
 -TaskStateType
--ShoppingCartRef
--ProductOrderRef
+
+-Entity
+
+-SearchTimeSlotStateType
 
 
 
@@ -62,6 +87,6 @@ Examples coming soon
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 18/09/2019 01:47:28 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 18/09/2019 02:29:59 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon
