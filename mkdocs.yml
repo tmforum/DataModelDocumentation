@@ -4,6 +4,14 @@ pages:
 - {Home: home.html}
 - {How to: howto.md}
 - {Schemas Overview: overview.html}
+- Domains:
+  - {Common: Domains/Common.md}
+  - {Customer: Domains/Customer.md}
+  - {EngagedParty: Domains/EngagedParty.md}
+  - {Marketing Sales: Domains/MarketingSales.md}
+  - {Product: Domains/Product.md}
+  - {Resource: Domains/Resource.md}
+  - {Service: Domains/Service.md}
 - Common:
   - {EntityCategory: Common/EntityCategory.md}
   - {ChangeRequestSpecification: Common/ChangeRequestSpecification.md}
