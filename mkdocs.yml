@@ -1,7 +1,7 @@
 docs_dir: docs/
 google_analytics: [UA-3242766-37, tmforum-schemas.readthedocs.io]
 pages:
-- {Home: index.md}
+- {Home: index.html}
 - {How to: howto.md}
 - {Schemas Overview: overview.html}
 - Common:
