@@ -1,10 +1,9 @@
 docs_dir: docs/
 google_analytics: [UA-3242766-37, tmforum-schemas.readthedocs.io]
 pages:
-- {Home: index.html}
+- {Home: index.md}
 - {How to: howto.md}
 - {Schemas Overview: overview.html}
-- {Common: index.html}
 - Common:
   - {EntityCategory: Common/EntityCategory.md}
   - {ChangeRequestSpecification: Common/ChangeRequestSpecification.md}
