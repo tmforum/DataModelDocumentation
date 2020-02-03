@@ -4,7 +4,7 @@ pages:
 - {Home: home.html}
 - {How to: howto.md}
 - {Schemas Overview: overview.html}
-- Common:
+- {Common: Domains/Common.md}:
   - {EntityCategory: Common/EntityCategory.md}
   - {ChangeRequestSpecification: Common/ChangeRequestSpecification.md}
   - {RelatedPlace: Common/RelatedPlace.md}
