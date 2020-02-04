@@ -14,25 +14,31 @@ A JSON Schema corresponding to this data model can be found
 [here](https://github.com/tmforum-rand/schemas/blob/candidates/Product/Usage.schema.json).
 
 The Data model is defined as shown below:
+
 - `date` : Date of usage
 
   - Optional
+
 
 - `description` : Description of usage
 
   - Optional
 
+
 - `href` : Reference of usage
 
   - Optional
+
 
 - `id` : Usage unique identifier
 
   - Optional
 
+
 - `status` : Status of usage
 
   - Optional
+
 
 - `usageType` : Type of usage
 
@@ -42,8 +48,9 @@ The Data model is defined as shown below:
 
 
 
+
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 04/02/2020 04:45:40 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 04:59:17 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

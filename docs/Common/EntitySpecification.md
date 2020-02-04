@@ -16,53 +16,66 @@ A JSON Schema corresponding to this data model can be found
 [here](https://github.com/tmforum-rand/schemas/blob/candidates/Common/EntitySpecification.schema.json).
 
 The Data model is defined as shown below:
+
 - `description` : Description of this REST resource
 
   - Optional
+
 
 - `href` : Hyperlink reference to this REST resource
 
   - Optional
 
+
 - `id` : Unique identifier of this REST resource
 
   - Optional
+
 
 - `lastUpdate` : Date and time of the last update of this REST resource
 
   - Optional
 
+
 - `lifecycleStatus` : Used to indicate the current lifecycle status of this catalog item
 
   - Optional
+
 
 - `name` : Name given to this REST resource
 
   - Optional
 
+
 - `validFor` : The period for which this REST resource is valid
 
   - Optional
+
 
 - `version` : Entity specification version
 
   - Optional
 
+
 - `attachment` : Attachments that may be of relevance to this specification, such as picture, document, media
 
   - Optional
+
 
 - `entitySchema` : Pointer to a schema that defines the entity
 
   - Optional
 
+
 - `specCharacteristic` : List of characteristics that the entity can take
 
   - Optional
 
+
 - `relatedParty` : Parties who manage or otherwise have an interest in this entity specification
 
   - Optional
+
 
 - `entitySpecRelationship` : Relationship to another entity specification, might be dependency, substitution, etc.
 
@@ -72,8 +85,9 @@ The Data model is defined as shown below:
 
 
 
+
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 04/02/2020 04:45:39 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 04:59:16 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

@@ -16,41 +16,51 @@ A JSON Schema corresponding to this data model can be found
 [here](https://github.com/tmforum-rand/schemas/blob/candidates/Common/EntityCatalog.schema.json).
 
 The Data model is defined as shown below:
+
 - `description` : Description of this catalog
 
   - Optional
+
 
 - `href` : Unique reference of the catalog
 
   - Optional
 
+
 - `id` : Unique identifier of the Catalog
 
   - Optional
+
 
 - `lastUpdate` : Date and time of the last update
 
   - Optional
 
+
 - `lifecycleStatus` : Used to indicate the current lifecycle status
 
   - Optional
+
 
 - `name` : Name of the catalog
 
   - Optional
 
+
 - `validFor` : The period for which the catalog is valid
 
   - Optional
+
 
 - `relatedParty` : The parties who are involved or have an interest in this catalog
 
   - Optional
 
+
 - `category` : The categories used in this catalog
 
   - Optional
+
 
 - `version` : Catalog version
 
@@ -60,8 +70,9 @@ The Data model is defined as shown below:
 
 
 
+
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 04/02/2020 04:45:39 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 04:59:16 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

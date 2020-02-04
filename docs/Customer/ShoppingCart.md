@@ -14,17 +14,21 @@ A JSON Schema corresponding to this data model can be found
 [here](https://github.com/tmforum-rand/schemas/blob/candidates/Customer/ShoppingCart.schema.json).
 
 The Data model is defined as shown below:
+
 - `href` : Hyperlink to access the shopping cart
 
   - Optional
+
 
 - `id` : Unique identifier created on provider side (e.g. Order Capture system)
 
   - Optional
 
+
 - `validFor` : The period for which the shopping cart is valid (e.g. 90 if no activity or 7 days if cart is empty)
 
   - Optional
+
 
 - `cartTotalPrice` : Total amount of the shopping cart, usually of money, that represents the actual price paid by the Customer for cart (considering only &quot;Active&quot; cart items)
 
@@ -34,8 +38,9 @@ The Data model is defined as shown below:
 
 
 
+
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 04/02/2020 04:45:40 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 04:59:17 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

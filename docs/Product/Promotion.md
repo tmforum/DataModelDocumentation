@@ -14,45 +14,56 @@ A JSON Schema corresponding to this data model can be found
 [here](https://github.com/tmforum-rand/schemas/blob/candidates/Product/Promotion.schema.json).
 
 The Data model is defined as shown below:
+
 - `@baseType` : The base type for use in polymorphic collections
 
   - Optional
+
 
 - `@schemaLocation` : A link to the schema describing a resource (for type extension).
 
   - Optional
 
+
 - `@type` : The class type of the actual resource (for type extension).
 
   - Optional
+
 
 - `description` : Description of Promotion
 
   - Optional
 
+
 - `href` : Hyperlink to access the promotion.
 
   - Optional
+
 
 - `id` : Unique identifier of Promotion.
 
   - Optional
 
+
 - `lastUpdate` : Latest update date of Promotion
 
   - Optional
+
 
 - `lifecycleStatus` : Status of Promotion, including draft/Test/WaitForApproval/Release/Suspend/Retirement.
 
   - Optional
 
+
 - `name` : Name of Promotion.
 
   - Mandatory
 
+
 - `type` : Type of promotion.The basic type is Award/Discount/Reduction. More types can be extended in future.
 
   - Optional
+
 
 - `validFor` : The period for which the promotion is valid.
 
@@ -62,8 +73,9 @@ The Data model is defined as shown below:
 
 
 
+
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 04/02/2020 04:45:40 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 04:59:17 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

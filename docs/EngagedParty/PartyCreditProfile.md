@@ -14,17 +14,21 @@ A JSON Schema corresponding to this data model can be found
 [here](https://github.com/tmforum-rand/schemas/blob/candidates/EngagedParty/PartyCreditProfile.schema.json).
 
 The Data model is defined as shown below:
+
 - `creditAgencyName` : Name of the credit agency giving the score
 
   - Optional
+
 
 - `creditAgencyType` : Type of the credit agency giving the score
 
   - Optional
 
+
 - `ratingReference` : Reference corresponding to the credit rating
 
   - Optional
+
 
 - `ratingScore` : A measure of a party’s creditworthiness calculated on the basis of a combination of factors such as their income and credit history
 
@@ -34,8 +38,9 @@ The Data model is defined as shown below:
 
 
 
+
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 04/02/2020 04:45:40 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 04:59:17 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

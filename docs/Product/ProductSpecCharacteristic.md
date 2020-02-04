@@ -14,21 +14,26 @@ A JSON Schema corresponding to this data model can be found
 [here](https://github.com/tmforum-rand/schemas/blob/candidates/Product/ProductSpecCharacteristic.schema.json).
 
 The Data model is defined as shown below:
+
 - `configurable` : If true, the Boolean indicates that the productSpecCharacteristic is configurable
 
   - Optional
+
 
 - `description` : A narrative that explains in detail what the productSpecCharacteristic is
 
   - Optional
 
+
 - `name` : Name of the productSpecCharacteristic
 
   - Optional
 
+
 - `validFor` : The period for which the productSpecCharacteristic is valid
 
   - Optional
+
 
 - `valueType` : A kind of value that the characteristic can take on, such as numeric, text and so forth
 
@@ -38,8 +43,9 @@ The Data model is defined as shown below:
 
 
 
+
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 04/02/2020 04:45:40 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 04:59:17 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon
