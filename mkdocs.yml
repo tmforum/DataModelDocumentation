@@ -42,7 +42,7 @@ pages:
   - {eNodeBAnalytics: Analytics/eNodeBAnalytics.md}
   - {eUICCProfileAnalytics: Analytics/eUICCProfileAnalytics.md}
   - {eUICCUsageAnalytics: Analytics/eUICCUsageAnalytics.md}
-  Common:
+- Common:
   - {AbstractEnvironment: Common/AbstractEnvironment.md}
   - {AbstractEnvironmentDefinition: Common/AbstractEnvironmentDefinition.md}
   - {AbstractEnvironmentRef: Common/AbstractEnvironmentRef.md}
@@ -673,7 +673,7 @@ pages:
   - {ThresholdRef: Resource/ThresholdRef.md}
   - {UnAckAlarms: Resource/UnAckAlarms.md}
   - {UnGroupAlarms: Resource/UnGroupAlarms.md}
-  Service:
+- Service:
   - {AlternateServiceProposal: Service/AlternateServiceProposal.md}
   - {AppliedConsequence: Service/AppliedConsequence.md}
   - {BaseService: Service/BaseService.md}
