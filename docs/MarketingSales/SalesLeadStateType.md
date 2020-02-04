@@ -11,7 +11,7 @@ Valid values for the lifecycle state of a salesLead resource
 ## Data model
 
 A JSON Schema corresponding to this data model can be found
-[here](https://github.com/tmforum-rand/schemas/blob/master/MarketingSales/SalesLeadStateType.schema.json).
+[here](https://github.com/tmforum-rand/schemas/blob/candidates/MarketingSales/SalesLeadStateType.schema.json).
 
 No Data Model yet
 
@@ -19,7 +19,7 @@ No Data Model yet
 
 ### This schema is referenced in the following schemas:
 
--SalesLead
+-
 
 ### This schema references the following schemas directly:
 
@@ -27,37 +27,7 @@ This schema does not reference any other Schemas
 
 ### This schema references directly or indirectly by the following schemas:
 
--EntityRef
-
--ProductSpecificationRef
-
--Money
-
--ProductOfferingRef
-
--CategoryRef
-
--MarketSegmentRef
-
--SalesLeadStateType
-
--SalesLeadPriorityType
-
--SalesLead
-
--TargetProductSchema
-
--ProductRef
-
--TimePeriod
-
--MarketingCampaignRef
-
--Entity
-
--SalesOpportunityRef
-
--ChannelRef
+-
 
 
 
@@ -67,6 +37,6 @@ Examples coming soon
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 18/09/2019 02:29:59 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 03:03:56 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

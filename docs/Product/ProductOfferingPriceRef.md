@@ -11,7 +11,7 @@ ProductPriceOffering reference. An amount, usually of money, that is asked for o
 ## Data model
 
 A JSON Schema corresponding to this data model can be found
-[here](https://github.com/tmforum-rand/schemas/blob/master/Product/ProductOfferingPriceRef.schema.json).
+[here](https://github.com/tmforum-rand/schemas/blob/candidates/Product/ProductOfferingPriceRef.schema.json).
 
 No Data Model yet
 
@@ -19,47 +19,19 @@ No Data Model yet
 
 ### This schema is referenced in the following schemas:
 
--ProductPrice
-
--PriceAlteration
-
--QuotePrice
-
--CartPrice
-
--OrderPrice
-
--OrderItemPrice
+-
 
 ### This schema references the following schemas directly:
 
--EntityRef
+-references
+
+-domain
 
 ### This schema references directly or indirectly by the following schemas:
 
--Money
+-domain
 
--OrderItemPrice
-
--ProductOfferingPriceRef
-
--BillingAccountRef
-
--OrderPrice
-
--PriceAlteration
-
--Price
-
--EntityRef
-
--CartPrice
-
--Entity
-
--ProductPrice
-
--QuotePrice
+-references
 
 
 
@@ -69,6 +41,6 @@ Examples coming soon
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 18/09/2019 02:29:59 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 03:03:56 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

@@ -11,7 +11,7 @@ RealizingResource reference. RealizingResource is a link to the resource that re
 ## Data model
 
 A JSON Schema corresponding to this data model can be found
-[here](https://github.com/tmforum-rand/schemas/blob/master/Resource/RealizingResourceRef.schema.json).
+[here](https://github.com/tmforum-rand/schemas/blob/candidates/Resource/RealizingResourceRef.schema.json).
 
 No Data Model yet
 
@@ -23,13 +23,15 @@ No Data Model yet
 
 ### This schema references the following schemas directly:
 
--EntityRef
+-references
+
+-domain
 
 ### This schema references directly or indirectly by the following schemas:
 
--EntityRef
+-domain
 
--Entity
+-references
 
 
 
@@ -39,6 +41,6 @@ Examples coming soon
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 18/09/2019 02:29:59 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 03:03:56 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

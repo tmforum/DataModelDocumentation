@@ -11,7 +11,7 @@ Possible values for the state of the order
 ## Data model
 
 A JSON Schema corresponding to this data model can be found
-[here](https://github.com/tmforum-rand/schemas/blob/master/Service/ServiceOrderStateType.schema.json).
+[here](https://github.com/tmforum-rand/schemas/blob/candidates/Service/ServiceOrderStateType.schema.json).
 
 No Data Model yet
 
@@ -19,9 +19,7 @@ No Data Model yet
 
 ### This schema is referenced in the following schemas:
 
--ServiceOrder
-
--ServiceOrderItem
+-
 
 ### This schema references the following schemas directly:
 
@@ -29,25 +27,7 @@ This schema does not reference any other Schemas
 
 ### This schema references directly or indirectly by the following schemas:
 
--ServiceOrderActionType
-
--TargetServiceSchema
-
--ServiceOrderItem
-
--ServiceSpecificationRef
-
--ServiceStateType
-
--ServiceOrderStateType
-
--ServiceOrder
-
--Entity
-
--BaseService
-
--AppointmentRef
+-
 
 
 
@@ -57,6 +37,6 @@ Examples coming soon
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 18/09/2019 02:29:59 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 03:03:56 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

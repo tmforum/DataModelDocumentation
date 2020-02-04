@@ -11,7 +11,7 @@ ProductOffering reference. A product offering represents entities that are order
 ## Data model
 
 A JSON Schema corresponding to this data model can be found
-[here](https://github.com/tmforum-rand/schemas/blob/master/Product/ProductOfferingRef.schema.json).
+[here](https://github.com/tmforum-rand/schemas/blob/candidates/Product/ProductOfferingRef.schema.json).
 
 No Data Model yet
 
@@ -19,105 +19,19 @@ No Data Model yet
 
 ### This schema is referenced in the following schemas:
 
--SalesLead
-
--Product
-
--ProductOfferingQualificationItem
-
--RecommendationItem
-
--ProductRequest
-
--AlternateProductOfferingProposal
-
--QuoteItem
-
--ProductOrderItem
-
--OrderItem
-
--CartItem
+-
 
 ### This schema references the following schemas directly:
 
--EntityRef
+-references
+
+-domain
 
 ### This schema references directly or indirectly by the following schemas:
 
--ProductOfferingQualificationItemRef
+-domain
 
--ProductOfferingRef
-
--Money
-
--ProductStatusType
-
--ProductOfferingQualificationItem
-
--ProductActionType
-
--AlternateProductOfferingProposal
-
--BillingAccountRef
-
--ProductSpecificationRef
-
--ProductRef
-
--AppointmentRef
-
--ProductRequest
-
--EntityRef
-
--ProductOrderItemStateType
-
--MarketSegmentRef
-
--SalesLeadStateType
-
--SalesLead
-
--TaskStateType
-
--MarketingCampaignRef
-
--Entity
-
--SalesOpportunityRef
-
--Product
-
--CartItemActionType
-
--RecommendationItem
-
--CategoryRef
-
--ProductOrderItem
-
--TargetProductSchema
-
--TimePeriod
-
--CartItem
-
--ChannelRef
-
--QuoteItem
-
--ProductRefOrValue
-
--CartItemStatusType
-
--OrderItemActionType
-
--SalesLeadPriorityType
-
--QuoteItemRef
-
--OrderItem
+-references
 
 
 
@@ -127,6 +41,6 @@ Examples coming soon
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 18/09/2019 02:29:59 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 03:03:56 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

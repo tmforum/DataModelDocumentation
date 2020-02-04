@@ -11,7 +11,7 @@ A product offering procured by a customer or other interested party playing a pa
 ## Data model
 
 A JSON Schema corresponding to this data model can be found
-[here](https://github.com/tmforum-rand/schemas/blob/master/Product/Product.schema.json).
+[here](https://github.com/tmforum-rand/schemas/blob/candidates/Product/Product.schema.json).
 
 No Data Model yet
 
@@ -19,47 +19,19 @@ No Data Model yet
 
 ### This schema is referenced in the following schemas:
 
--ProductRefOrValue
-
--OrderItem
+-
 
 ### This schema references the following schemas directly:
 
--Entity
+-references
 
--BillingAccountRef
-
--ProductOfferingRef
-
--ProductSpecificationRef
-
--ProductStatusType
+-domain
 
 ### This schema references directly or indirectly by the following schemas:
 
--ProductOfferingRef
+-domain
 
--ProductStatusType
-
--TargetProductSchema
-
--BillingAccountRef
-
--ProductSpecificationRef
-
--ProductRef
-
--AppointmentRef
-
--ProductRefOrValue
-
--EntityRef
-
--OrderItem
-
--Entity
-
--Product
+-references
 
 
 
@@ -69,6 +41,6 @@ Examples coming soon
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 18/09/2019 02:29:59 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 03:03:56 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

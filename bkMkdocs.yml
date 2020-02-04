@@ -3,6 +3,7 @@ google_analytics: [UA-83719923-1, fiware-datamodels.readthedocs.io]
 pages:
 - {Home: index.md}
 - {How to: howto.md}
+- {}
 - Common:
   - {EntityCategory: Common/EntityCategory.md}
   - {ChangeRequestSpecification: Common/ChangeRequestSpecification.md}

@@ -6,12 +6,12 @@ The  schema is part of the  Domain
 
 ## Description
 
-#TODO
+Represents a detailed description of a recharge operation requested over a bucket (defined by a specific product or reference to a product (i.e.: a commercial id such as an msisidn) and a service type)
 
 ## Data model
 
 A JSON Schema corresponding to this data model can be found
-[here](https://github.com/tmforum-rand/schemas/blob/master/Customer/BalanceTopup.schema.json).
+[here](https://github.com/tmforum-rand/schemas/blob/candidates/Customer/BalanceTopup.schema.json).
 
 No Data Model yet
 
@@ -37,6 +37,6 @@ Examples coming soon
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 18/09/2019 02:29:59 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 03:03:56 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

@@ -11,7 +11,7 @@ Resource containing a the ID of a condition to link to a loyalty rule.
 ## Data model
 
 A JSON Schema corresponding to this data model can be found
-[here](https://github.com/tmforum-rand/schemas/blob/master/Product/LoyaltyRuleCondition.schema.json).
+[here](https://github.com/tmforum-rand/schemas/blob/candidates/Product/LoyaltyRuleCondition.schema.json).
 
 No Data Model yet
 
@@ -37,6 +37,6 @@ Examples coming soon
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 18/09/2019 02:29:59 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 03:03:56 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

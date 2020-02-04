@@ -11,7 +11,7 @@ A quote items describe an action to be performed on a productOffering or a produ
 ## Data model
 
 A JSON Schema corresponding to this data model can be found
-[here](https://github.com/tmforum-rand/schemas/blob/master/Customer/QuoteItem.schema.json).
+[here](https://github.com/tmforum-rand/schemas/blob/candidates/Customer/QuoteItem.schema.json).
 
 No Data Model yet
 
@@ -23,37 +23,15 @@ No Data Model yet
 
 ### This schema references the following schemas directly:
 
--Entity
+-references
 
--ProductRefOrValue
-
--ProductOfferingRef
-
--ProductOfferingQualificationItemRef
+-domain
 
 ### This schema references directly or indirectly by the following schemas:
 
--ProductRefOrValue
+-domain
 
--EntityRef
-
--ProductSpecificationRef
-
--ProductOfferingQualificationItemRef
-
--ProductOfferingRef
-
--ProductStatusType
-
--TargetProductSchema
-
--BillingAccountRef
-
--Entity
-
--Product
-
--ProductRef
+-references
 
 
 
@@ -63,6 +41,6 @@ Examples coming soon
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 18/09/2019 02:29:59 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 03:03:56 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

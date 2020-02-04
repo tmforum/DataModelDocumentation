@@ -11,7 +11,7 @@ A product to be created defined by value or existing defined by reference. The p
 ## Data model
 
 A JSON Schema corresponding to this data model can be found
-[here](https://github.com/tmforum-rand/schemas/blob/master/Product/ProductRefOrValue.schema.json).
+[here](https://github.com/tmforum-rand/schemas/blob/candidates/Product/ProductRefOrValue.schema.json).
 
 No Data Model yet
 
@@ -19,75 +19,19 @@ No Data Model yet
 
 ### This schema is referenced in the following schemas:
 
--ProductOfferingQualificationItem
-
--ProductRelationship
-
--AlternateProductOfferingProposal
-
--QuoteItem
-
--ProductOrderItem
-
--CartItem
+-
 
 ### This schema references the following schemas directly:
 
--ProductRef
+-references
 
--Product
+-domain
 
 ### This schema references directly or indirectly by the following schemas:
 
--ProductOfferingQualificationItemRef
+-domain
 
--ProductOfferingRef
-
--ProductStatusType
-
--ProductOfferingQualificationItem
-
--ProductActionType
-
--AlternateProductOfferingProposal
-
--BillingAccountRef
-
--ProductSpecificationRef
-
--ProductRef
-
--AppointmentRef
-
--ProductOrderItemStateType
-
--EntityRef
-
--TaskStateType
-
--Entity
-
--Product
-
--CartItemActionType
-
--ProductOrderItem
-
--TargetProductSchema
-
--CartItem
-
--QuoteItem
-
--ProductRefOrValue
-
--CartItemStatusType
-
--OrderItemActionType
-
--ProductRelationship
-
--QuoteItemRef
+-references
 
 
 
@@ -97,6 +41,6 @@ Examples coming soon
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 18/09/2019 02:29:59 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 03:03:56 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

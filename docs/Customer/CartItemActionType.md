@@ -11,7 +11,7 @@ action to be performed on the product
 ## Data model
 
 A JSON Schema corresponding to this data model can be found
-[here](https://github.com/tmforum-rand/schemas/blob/master/Customer/CartItemActionType.schema.json).
+[here](https://github.com/tmforum-rand/schemas/blob/candidates/Customer/CartItemActionType.schema.json).
 
 No Data Model yet
 
@@ -19,7 +19,7 @@ No Data Model yet
 
 ### This schema is referenced in the following schemas:
 
--CartItem
+-
 
 ### This schema references the following schemas directly:
 
@@ -27,31 +27,7 @@ This schema does not reference any other Schemas
 
 ### This schema references directly or indirectly by the following schemas:
 
--CartItemActionType
-
--ProductRefOrValue
-
--CartItemStatusType
-
--EntityRef
-
--ProductSpecificationRef
-
--ProductOfferingRef
-
--ProductStatusType
-
--TargetProductSchema
-
--BillingAccountRef
-
--Entity
-
--CartItem
-
--Product
-
--ProductRef
+-
 
 
 
@@ -61,6 +37,6 @@ Examples coming soon
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 18/09/2019 02:29:59 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 03:03:56 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

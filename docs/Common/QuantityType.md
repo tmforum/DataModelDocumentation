@@ -11,7 +11,7 @@ Representation of a quantity of something. I can also be used to represent a qua
 ## Data model
 
 A JSON Schema corresponding to this data model can be found
-[here](https://github.com/tmforum-rand/schemas/blob/master/Common/QuantityType.schema.json).
+[here](https://github.com/tmforum-rand/schemas/blob/candidates/Common/QuantityType.schema.json).
 
 No Data Model yet
 
@@ -19,19 +19,7 @@ No Data Model yet
 
 ### This schema is referenced in the following schemas:
 
--BalanceTransferRequest
-
--BalanceTopupBody
-
--BalanceTransferBody
-
--BalanceAdjustmentBody
-
--AccumulatedBalance
-
--BalanceActivity
-
--BucketBalance
+-
 
 ### This schema references the following schemas directly:
 
@@ -39,39 +27,7 @@ This schema does not reference any other Schemas
 
 ### This schema references directly or indirectly by the following schemas:
 
--BucketBalanceRef
-
--TimePeriodType
-
--Entity
-
--BalanceAdjustmentBody
-
--BalanceTopupBody
-
--QuantityType
-
--BucketBalance
-
--ProductRef
-
--ChannelRef
-
--RelatedPartyRef
-
--EntityRef
-
--BalanceTransferBody
-
--BalanceActivity
-
--AccumulatedBalance
-
--PartyAccountRef
-
--BalanceTransferRequest
-
--BalanceActionRequestRef
+-
 
 
 
@@ -81,6 +37,6 @@ Examples coming soon
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 18/09/2019 02:29:59 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 03:03:56 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

@@ -6,12 +6,12 @@ The  schema is part of the  Domain
 
 ## Description
 
-AgreementSpecification reference. An AgreementSpecification represents a template of an agreement that can be used when establishing partnerships.
+Agreement specification reference. An AgreementSpecification represents a template of an agreement that can be used when establishing partnerships.
 
 ## Data model
 
 A JSON Schema corresponding to this data model can be found
-[here](https://github.com/tmforum-rand/schemas/blob/master/EngagedParty/AgreementSpecificationRef.schema.json).
+[here](https://github.com/tmforum-rand/schemas/blob/candidates/EngagedParty/AgreementSpecificationRef.schema.json).
 
 No Data Model yet
 
@@ -19,23 +19,19 @@ No Data Model yet
 
 ### This schema is referenced in the following schemas:
 
--Agreement
+-
 
 ### This schema references the following schemas directly:
 
--EntityRef
+-references
+
+-domain
 
 ### This schema references directly or indirectly by the following schemas:
 
--EntityRef
+-domain
 
--Agreement
-
--TimePeriod
-
--Entity
-
--AgreementSpecificationRef
+-references
 
 
 
@@ -45,6 +41,6 @@ Examples coming soon
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 18/09/2019 02:29:59 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 03:03:56 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon
