@@ -16,34 +16,33 @@ A ServiceCandidate and its associated ServiceSpecification may be &quot;publishe
 A JSON Schema corresponding to this data model can be found
 [here](https://github.com/tmforum-rand/schemas/blob/candidates/Service/ServiceCatalog.schema.json).
 
-No Data Model yet
+The Data model is defined as shown below:
+- `category` : List of service categories associated with this catalog
+  - Optional
+- `description` : Description of this catalog
+  - Optional
+- `href` : Unique reference of the service catalog
+  - Optional
+- `id` : Unique identifier of the ServiceCatalog
+  - Optional
+- `lastUpdate` : Date and time of the last update
+  - Optional
+- `lifecycleStatus` : Used to indicate the current lifecycle status
+  - Optional
+- `name` : Name of the service catalog
+  - Optional
+- `relatedParty` : List of parties or party roles related to this category
+  - Optional
+- `validFor` : The period for which the service catalog is valid
+  - Optional
+- `version` : ServiceCatalog version
+  - Optional
 
-## Schema Relationships
-
-### This schema is referenced in the following schemas:
-
--
-
-### This schema references the following schemas directly:
-
--references
-
--domain
-
-### This schema references directly or indirectly by the following schemas:
-
--domain
-
--references
 
 
-
-## Examples
-
-Examples coming soon
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 04/02/2020 03:41:06 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 04:22:50 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

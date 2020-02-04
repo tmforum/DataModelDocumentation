@@ -13,34 +13,27 @@ Action of the promotion.When the customer meets the conditions in the promotion 
 A JSON Schema corresponding to this data model can be found
 [here](https://github.com/tmforum-rand/schemas/blob/candidates/Product/PromotionAction.schema.json).
 
-No Data Model yet
-
-## Schema Relationships
-
-### This schema is referenced in the following schemas:
-
--
-
-### This schema references the following schemas directly:
-
--references
-
--domain
-
-### This schema references directly or indirectly by the following schemas:
-
--domain
-
--references
+The Data model is defined as shown below:
+- `@baseType` : The base type for use in polymorphic collections
+  - Optional
+- `@schemaLocation` : A link to the schema describing a resource (for type extension).
+  - Optional
+- `@type` : The class type of the actual resource (for type extension).
+  - Optional
+- `actionObjectId` : It refers to the object (entity) ID which is impacted by the promotion action. When the Promotion -&amp;gt; type is 1: Award, the actionObjectId is the sub-account ID; When the Promotion -&amp;gt; type is 2: Discount, it is the offering ID; When the Promotion -&amp;gt; type is 3: reduction, it is the offering ID.
+  - Mandatory
+- `actionType` : When the Promotion -&amp;gt; type is 1: Award, the action type can be one of the following:voice (minute),data (MB),data (GB),SMS,bonus point,physical gift,voucher,promotion code,an existing offering,currency. More types of action can be extended in future.
+  - Mandatory
+- `actionValue` : When the Promotion -&amp;gt; type is 1: Award, it means the amount or value of the awards decided by actionType, such as:Amount of gift,Amount of bonus,Value of discount; When the Promotion -&amp;gt; type is 2: Discount, it means the value of the discount; When the Promotion -&amp;gt; type is 3: reduction, it means the value of the reduced money .
+  - Mandatory
+- `id` : Unique identifier.
+  - Mandatory
 
 
 
-## Examples
-
-Examples coming soon
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 04/02/2020 03:41:06 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 04:22:50 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

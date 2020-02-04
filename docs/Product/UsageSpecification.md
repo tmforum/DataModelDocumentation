@@ -13,34 +13,23 @@ A detailed description of a usage event that are of interest to the business and
 A JSON Schema corresponding to this data model can be found
 [here](https://github.com/tmforum-rand/schemas/blob/candidates/Product/UsageSpecification.schema.json).
 
-No Data Model yet
-
-## Schema Relationships
-
-### This schema is referenced in the following schemas:
-
--
-
-### This schema references the following schemas directly:
-
--references
-
--domain
-
-### This schema references directly or indirectly by the following schemas:
-
--domain
-
--references
+The Data model is defined as shown below:
+- `description` : A narrative that explains in detail what the usage specification is
+  - Optional
+- `href` : Reference of usage specification
+  - Optional
+- `id` : Usage specification unique identifier
+  - Optional
+- `name` : The name of the usage specification.
+  - Optional
+- `validFor` : The period for which the usage specification is valid
+  - Optional
 
 
 
-## Examples
-
-Examples coming soon
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 04/02/2020 03:41:06 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 04:22:50 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

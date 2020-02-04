@@ -13,34 +13,27 @@ Complements the description of an entity through video, pictures...
 A JSON Schema corresponding to this data model can be found
 [here](https://github.com/tmforum-rand/schemas/blob/candidates/Common/EntityAttachment.schema.json).
 
-No Data Model yet
-
-## Schema Relationships
-
-### This schema is referenced in the following schemas:
-
--
-
-### This schema references the following schemas directly:
-
--references
-
--domain
-
-### This schema references directly or indirectly by the following schemas:
-
--domain
-
--references
+The Data model is defined as shown below:
+- `description` : A narrative text describing the content of the attachment
+  - Optional
+- `href` : Reference of the attachment
+  - Optional
+- `id` : Unique identifier of the attachment
+  - Optional
+- `mimeType` : Attachment mime type such as extension file for video, picture and document
+  - Optional
+- `name` : name given to the attachment
+  - Optional
+- `uri` : Uniform Resource Identifier (URI) of the attachment
+  - Optional
+- `validFor` : The period for which this attachment is valid
+  - Optional
 
 
 
-## Examples
-
-Examples coming soon
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 04/02/2020 03:41:06 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 04:22:50 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

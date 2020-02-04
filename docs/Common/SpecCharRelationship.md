@@ -13,34 +13,23 @@ An aggregation, migration, substitution, dependency or exclusivity relationship 
 A JSON Schema corresponding to this data model can be found
 [here](https://github.com/tmforum-rand/schemas/blob/candidates/Common/SpecCharRelationship.schema.json).
 
-No Data Model yet
-
-## Schema Relationships
-
-### This schema is referenced in the following schemas:
-
--
-
-### This schema references the following schemas directly:
-
--references
-
--domain
-
-### This schema references directly or indirectly by the following schemas:
-
--domain
-
--references
+The Data model is defined as shown below:
+- `href` : Hyperlink reference to the target entity specification
+  - Optional
+- `id` : Unique identifier of the target entity specification
+  - Optional
+- `name` : Name of the target specCharacteristic
+  - Optional
+- `relationshipType` : Type of relationship such as aggregation, migration, substitution, dependency, exclusivity
+  - Optional
+- `validFor` : The period for which the SpecCharRelationship is valid
+  - Optional
 
 
 
-## Examples
-
-Examples coming soon
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 04/02/2020 03:41:06 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 04:22:50 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

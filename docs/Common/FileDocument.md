@@ -13,34 +13,23 @@ A document accompanying an entity
 A JSON Schema corresponding to this data model can be found
 [here](https://github.com/tmforum-rand/schemas/blob/candidates/Common/FileDocument.schema.json).
 
-No Data Model yet
-
-## Schema Relationships
-
-### This schema is referenced in the following schemas:
-
--
-
-### This schema references the following schemas directly:
-
--references
-
--domain
-
-### This schema references directly or indirectly by the following schemas:
-
--domain
-
--references
+The Data model is defined as shown below:
+- `downloadUrl` : URL where the document could be downloaded
+  - Optional
+- `fileType` : Document file format of the file : csv, pdf, xls, txt... for example
+  - Optional
+- `name` : Document name
+  - Optional
+- `size` : Document file size  (by default in bytes)
+  - Optional
+- `sizeUnit` : Size unit (in bytes by default)
+  - Optional
 
 
 
-## Examples
-
-Examples coming soon
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 04/02/2020 03:41:06 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 04:22:50 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

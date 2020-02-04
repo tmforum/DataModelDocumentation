@@ -13,34 +13,23 @@ A characteristic quality or distinctive feature of a Specification.  The charact
 A JSON Schema corresponding to this data model can be found
 [here](https://github.com/tmforum-rand/schemas/blob/candidates/Common/SpecCharacteristic.schema.json).
 
-No Data Model yet
-
-## Schema Relationships
-
-### This schema is referenced in the following schemas:
-
--
-
-### This schema references the following schemas directly:
-
--references
-
--domain
-
-### This schema references directly or indirectly by the following schemas:
-
--domain
-
--references
+The Data model is defined as shown below:
+- `configurable` : If true, the Boolean indicates that the SpecCharacteristic is configurable
+  - Optional
+- `description` : A narrative that explains in detail what the SpecCharacteristic is
+  - Optional
+- `name` : Name of the SpecCharacteristic
+  - Optional
+- `validFor` : The period for which the productSpecCharacteristic is valid
+  - Optional
+- `valueType` : A kind of value that the characteristic can take on, such as numeric, text and so forth
+  - Optional
 
 
 
-## Examples
-
-Examples coming soon
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 04/02/2020 03:41:06 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 04:22:50 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

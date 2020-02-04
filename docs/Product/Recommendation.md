@@ -13,34 +13,29 @@ Recommendation API is used to recommend offering quickly based on the history an
 A JSON Schema corresponding to this data model can be found
 [here](https://github.com/tmforum-rand/schemas/blob/candidates/Product/Recommendation.schema.json).
 
-No Data Model yet
-
-## Schema Relationships
-
-### This schema is referenced in the following schemas:
-
--
-
-### This schema references the following schemas directly:
-
--references
-
--domain
-
-### This schema references directly or indirectly by the following schemas:
-
--domain
-
--references
+The Data model is defined as shown below:
+- `href` : Hypertext Reference of the recommendation
+  - Optional
+- `id` : Unique identifier of recommendation
+  - Optional
+- `name` : Name of recommendation
+  - Optional
+- `recommendationType` : The type of recommendation
+  - Optional
+- `validFor` : The period in which the recommendation is valid
+  - Optional
+- `location` : The geographic location which the recommendation is related to
+  - Optional
+- `category` : The category for grouping recommendations
+  - Optional
+- `shoppingCart` : The shopping cart which the recommendation is related to
+  - Optional
 
 
 
-## Examples
-
-Examples coming soon
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 04/02/2020 03:41:06 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 04:22:50 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

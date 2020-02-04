@@ -13,34 +13,27 @@ A reference to a loyalty program specification.
 A JSON Schema corresponding to this data model can be found
 [here](https://github.com/tmforum-rand/schemas/blob/candidates/Product/LoyaltyProgramProductSpec.schema.json).
 
-No Data Model yet
-
-## Schema Relationships
-
-### This schema is referenced in the following schemas:
-
--
-
-### This schema references the following schemas directly:
-
--references
-
--domain
-
-### This schema references directly or indirectly by the following schemas:
-
--domain
-
--references
+The Data model is defined as shown below:
+- `brand` : The manufacturer or trademark of the specification.
+  - Optional
+- `description` : A narrative that explains in detail what the product specification is.
+  - Optional
+- `id` : Unique identifier for the product specification.
+  - Optional
+- `href` : A reference to the product specification.
+  - Optional
+- `lifeCycleStatus` : The condition of the product specification, such as active, inactive, planned.
+  - Optional
+- `name` : The name of the product specification.
+  - Optional
+- `needsLoyaltyAccount` : A narrative that explains in detail what the product specification is.
+  - Optional
 
 
 
-## Examples
-
-Examples coming soon
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 04/02/2020 03:41:06 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 04:22:50 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

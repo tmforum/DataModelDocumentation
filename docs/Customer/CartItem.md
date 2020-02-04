@@ -13,34 +13,21 @@ An identified part of the shopping cart. A shopping cart  is decomposed into one
 A JSON Schema corresponding to this data model can be found
 [here](https://github.com/tmforum-rand/schemas/blob/candidates/Customer/CartItem.schema.json).
 
-No Data Model yet
-
-## Schema Relationships
-
-### This schema is referenced in the following schemas:
-
--
-
-### This schema references the following schemas directly:
-
--references
-
--domain
-
-### This schema references directly or indirectly by the following schemas:
-
--domain
-
--references
+The Data model is defined as shown below:
+- `action` : The action to be carried out on the Product. Can be: add, modify, delete, noChange
+  - Optional
+- `id` : Identifier of the cart item (generally it is a sequence number 01, 02, 03, ...) in the shopping cart
+  - Optional
+- `quantity` : Quantity of cart items
+  - Optional
+- `status` : status of cart item. e.g &quot;active&quot; , &quot;savedForLater&quot;.
+  - Optional
 
 
 
-## Examples
-
-Examples coming soon
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 04/02/2020 03:41:06 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 04:22:51 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

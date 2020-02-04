@@ -13,34 +13,29 @@ A use of the ProductSpecificationCharacteristicValue by a ProductOffering to whi
 A JSON Schema corresponding to this data model can be found
 [here](https://github.com/tmforum-rand/schemas/blob/candidates/Product/ProductSpecificationCharacteristicValueUse.schema.json).
 
-No Data Model yet
-
-## Schema Relationships
-
-### This schema is referenced in the following schemas:
-
--
-
-### This schema references the following schemas directly:
-
--references
-
--domain
-
-### This schema references directly or indirectly by the following schemas:
-
--domain
-
--references
+The Data model is defined as shown below:
+- `name` : Name of the associated productSpecificationCharacteristic
+  - Optional
+- `description` : A narrative that explains in detail what the productSpecificationCharacteristic is
+  - Optional
+- `valueType` : A kind of value that the characteristic can take on, such as numeric, text and so forth
+  - Optional
+- `minCardinality` : The minimum number of instances a CharacteristicValue can take on. For example, zero to five phone numbers in a group calling plan, where zero is the value for the minCardinality.
+  - Optional
+- `maxCardinality` : The maximum number of instances a CharacteristicValue can take on. For example, zero to five phone numbers in a group calling plan, where five is the value for the maxCardinality.
+  - Optional
+- `validFor` : The period for which the productSpecificationCharacteristic is valid
+  - Optional
+- `productSpecCharacteristicValue` : A number or text that can be assigned to a ProductSpecificationCharacteristic.
+  - Optional
+- `productSpecification` : A ProductSpecification is a detailed description of a tangible or intangible object made available externally in the form of a ProductOffering to customers or other parties playing a party role.
+  - Optional
 
 
 
-## Examples
-
-Examples coming soon
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 04/02/2020 03:41:06 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 04:22:50 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

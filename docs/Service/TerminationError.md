@@ -13,30 +13,17 @@ This indicates an error that caused a qualificationItem to be terminated.
 A JSON Schema corresponding to this data model can be found
 [here](https://github.com/tmforum-rand/schemas/blob/candidates/Service/TerminationError.schema.json).
 
-No Data Model yet
-
-## Schema Relationships
-
-### This schema is referenced in the following schemas:
-
--
-
-### This schema references the following schemas directly:
-
-This schema does not reference any other Schemas
-
-### This schema references directly or indirectly by the following schemas:
-
--
+The Data model is defined as shown below:
+- `id` : Unique identifier of the termination error
+  - Optional
+- `value` : Text to describe the termination error - for example: Unable to proceed to qualification because incomplete information provided
+  - Optional
 
 
 
-## Examples
-
-Examples coming soon
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 04/02/2020 03:41:06 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 04:22:51 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

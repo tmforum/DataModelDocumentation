@@ -13,30 +13,31 @@ AiModel is a base class for defining the AiModel hierarchy. All AiModel are char
 A JSON Schema corresponding to this data model can be found
 [here](https://github.com/tmforum-rand/schemas/blob/candidates/Common/AiModel.schema.json).
 
-No Data Model yet
+The Data model is defined as shown below:
+- `description` : Free-text description of the model
+  - Optional
+- `isServiceEnabled` : If FALSE, this particular Service has NOT been enabled for use
+  - Optional
+- `hasStarted` : If TRUE, this Service has already been started
+  - Optional
+- `startMode` : This attribute is an enumerated integer that indicates how the Service is started, such as: 0: Unknown; 1: Automatically by the managed environment; 2: Automatically by the owning device; 3: Manually by the Provider of the Service; 4: Manually by a Customer of the Provider; 5: Any of the above
+  - Optional
+- `isStateful` : If TRUE, this Service can be changed without affecting any other services
+  - Optional
+- `serviceDate` : Date when the service was created (whatever its status).
+  - Optional
+- `startDate` : Date when the service starts
+  - Optional
+- `endDate` : Date when the service ends
+  - Optional
+- `note` : A list of notes made on this service
+  - Optional
 
-## Schema Relationships
-
-### This schema is referenced in the following schemas:
-
--
-
-### This schema references the following schemas directly:
-
-This schema does not reference any other Schemas
-
-### This schema references directly or indirectly by the following schemas:
-
--
 
 
-
-## Examples
-
-Examples coming soon
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 04/02/2020 03:41:06 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 04:22:50 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

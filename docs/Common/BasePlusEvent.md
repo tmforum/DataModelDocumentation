@@ -13,34 +13,33 @@ Base event with common attributes.
 A JSON Schema corresponding to this data model can be found
 [here](https://github.com/tmforum-rand/schemas/blob/candidates/Common/BasePlusEvent.schema.json).
 
-No Data Model yet
+The Data model is defined as shown below:
+- `eventId` : The identifier of the notification.
+  - Optional
+- `eventTime` : Time of the event occurrence.
+  - Optional
+- `eventType` : The type of the notification.
+  - Optional
+- `correlationId` : The correlation id for this event.
+  - Optional
+- `domain` : The domain of the event.
+  - Optional
+- `title` : The title of the event.
+  - Optional
+- `description` : An explnatory of the event.
+  - Optional
+- `priority` : A priority.
+  - Optional
+- `timeOcurred` : The time the event occured.
+  - Optional
+- `fieldPath` : The path identifying the object field concerned by this notification.
+  - Optional
 
-## Schema Relationships
-
-### This schema is referenced in the following schemas:
-
--
-
-### This schema references the following schemas directly:
-
--references
-
--domain
-
-### This schema references directly or indirectly by the following schemas:
-
--domain
-
--references
 
 
-
-## Examples
-
-Examples coming soon
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 04/02/2020 03:41:06 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 04:22:50 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

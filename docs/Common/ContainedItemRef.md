@@ -13,30 +13,23 @@ Describes a specific item contained in a parent element
 A JSON Schema corresponding to this data model can be found
 [here](https://github.com/tmforum-rand/schemas/blob/candidates/Common/ContainedItemRef.schema.json).
 
-No Data Model yet
-
-## Schema Relationships
-
-### This schema is referenced in the following schemas:
-
--
-
-### This schema references the following schemas directly:
-
-This schema does not reference any other Schemas
-
-### This schema references directly or indirectly by the following schemas:
-
--
+The Data model is defined as shown below:
+- `name` : Name of the related entity.
+  - Optional
+- `@referredType` : The actual type of the target instance when needed for disambiguation.
+  - Optional
+- `entityHref` : Hypertext Reference of the parent element.
+  - Optional
+- `entityId` : Unique identifier of the parent element.
+  - Optional
+- `ItemId` : Unique identifier of the considered item.
+  - Optional
 
 
 
-## Examples
-
-Examples coming soon
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 04/02/2020 03:41:06 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 04:22:50 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

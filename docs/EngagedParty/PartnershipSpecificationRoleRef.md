@@ -13,34 +13,23 @@ Reference to the RoleSpecification reference contained within a given partnershi
 A JSON Schema corresponding to this data model can be found
 [here](https://github.com/tmforum-rand/schemas/blob/candidates/EngagedParty/PartnershipSpecificationRoleRef.schema.json).
 
-No Data Model yet
-
-## Schema Relationships
-
-### This schema is referenced in the following schemas:
-
--
-
-### This schema references the following schemas directly:
-
--references
-
--domain
-
-### This schema references directly or indirectly by the following schemas:
-
--domain
-
--references
+The Data model is defined as shown below:
+- `href` : The href of the containing partnership specification.
+  - Optional
+- `id` : The id of the containing partnership specification.
+  - Optional
+- `name` : The name of the partnership specification.
+  - Optional
+- `roleName` : The name of the role specification - which should be defined within the partnership specification
+  - Optional
+- `@referredType` : The actual type of the target instance when needed for disambiguation.
+  - Optional
 
 
 
-## Examples
-
-Examples coming soon
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 04/02/2020 03:41:06 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 04:22:51 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

@@ -13,30 +13,21 @@ an abstract resource. example extensions are BalanceTopup, BalanceDeduct
 A JSON Schema corresponding to this data model can be found
 [here](https://github.com/tmforum-rand/schemas/blob/candidates/Customer/BalanceAction.schema.json).
 
-No Data Model yet
-
-## Schema Relationships
-
-### This schema is referenced in the following schemas:
-
--
-
-### This schema references the following schemas directly:
-
-This schema does not reference any other Schemas
-
-### This schema references directly or indirectly by the following schemas:
-
--
+The Data model is defined as shown below:
+- `requestedDate` : Date when the deduction request was received in the server
+  - Optional
+- `confirmationDate` : Date when the deduction was confirmed in the server
+  - Optional
+- `validFor` : Unique identifier for the balancereserve entity
+  - Optional
+- `status` : Status of the operation
+  - Optional
 
 
 
-## Examples
-
-Examples coming soon
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 04/02/2020 03:41:06 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 04:22:51 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

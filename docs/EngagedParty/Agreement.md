@@ -13,34 +13,37 @@ An agreement represents a contract or arrangement, either written or verbal and 
 A JSON Schema corresponding to this data model can be found
 [here](https://github.com/tmforum-rand/schemas/blob/candidates/EngagedParty/Agreement.schema.json).
 
-No Data Model yet
+The Data model is defined as shown below:
+- `agreementPeriod` : The time period during which the Agreement is in effect.
+  - Optional
+- `completionDate` : Date at which the agreement is completed
+  - Optional
+- `description` : Narrative that explains the agreement and details about the it , such as why the agreement is taking place.
+  - Optional
+- `documentNumber` : A reference number assigned to an Agreement that follows a prescribed numbering system.
+  - Optional
+- `href` : Unique url identifying the agreement as a resource
+  - Optional
+- `id` : Unique identifier for the agreement
+  - Optional
+- `initialDate` : Date at which the agreement was initialized
+  - Optional
+- `name` : A human-readable name for the agreement
+  - Mandatory
+- `statementOfIntent` : An overview and goals of the Agreement
+  - Optional
+- `status` : The current status of the agreement. Typical values are: in process, approved and rejected
+  - Optional
+- `agreementType` : The type of the agreement. For example commercial
+  - Mandatory
+- `version` : A string identifying the version of the agreement
+  - Optional
 
-## Schema Relationships
-
-### This schema is referenced in the following schemas:
-
--
-
-### This schema references the following schemas directly:
-
--references
-
--domain
-
-### This schema references directly or indirectly by the following schemas:
-
--domain
-
--references
 
 
-
-## Examples
-
-Examples coming soon
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 04/02/2020 03:41:06 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 04:22:51 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

@@ -13,34 +13,25 @@ Service specification reference: ServiceSpecification(s) required to realize a P
 A JSON Schema corresponding to this data model can be found
 [here](https://github.com/tmforum-rand/schemas/blob/candidates/Service/ServiceSpecificationRef.schema.json).
 
-No Data Model yet
-
-## Schema Relationships
-
-### This schema is referenced in the following schemas:
-
--
-
-### This schema references the following schemas directly:
-
--references
-
--domain
-
-### This schema references directly or indirectly by the following schemas:
-
--domain
-
--references
+The Data model is defined as shown below:
+- `id` : Unique identifier of the service specification
+  - Optional
+- `href` : Reference of the serviceSpecification
+  - Optional
+- `name` : Name of the requiredServiceSpecification
+  - Optional
+- `version` : Service specification version
+  - Optional
+- `targetServiceSchema` : A target service schema reference (TargetServiceSchemaRef). The reference object to the schema and type of target service which is described by service specification.
+  - Optional
+- `@referredType` : The actual type of the target instance when needed for disambiguation.
+  - Optional
 
 
 
-## Examples
-
-Examples coming soon
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 04/02/2020 03:41:06 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 04:22:51 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

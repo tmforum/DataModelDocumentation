@@ -15,34 +15,39 @@ Note: The ‘configurable’ attribute on the specCharacteristics determines if 
 A JSON Schema corresponding to this data model can be found
 [here](https://github.com/tmforum-rand/schemas/blob/candidates/Common/EntitySpecification.schema.json).
 
-No Data Model yet
+The Data model is defined as shown below:
+- `description` : Description of this REST resource
+  - Optional
+- `href` : Hyperlink reference to this REST resource
+  - Optional
+- `id` : Unique identifier of this REST resource
+  - Optional
+- `lastUpdate` : Date and time of the last update of this REST resource
+  - Optional
+- `lifecycleStatus` : Used to indicate the current lifecycle status of this catalog item
+  - Optional
+- `name` : Name given to this REST resource
+  - Optional
+- `validFor` : The period for which this REST resource is valid
+  - Optional
+- `version` : Entity specification version
+  - Optional
+- `attachment` : Attachments that may be of relevance to this specification, such as picture, document, media
+  - Optional
+- `entitySchema` : Pointer to a schema that defines the entity
+  - Optional
+- `specCharacteristic` : List of characteristics that the entity can take
+  - Optional
+- `relatedParty` : Parties who manage or otherwise have an interest in this entity specification
+  - Optional
+- `entitySpecRelationship` : Relationship to another entity specification, might be dependency, substitution, etc.
+  - Optional
 
-## Schema Relationships
-
-### This schema is referenced in the following schemas:
-
--
-
-### This schema references the following schemas directly:
-
--references
-
--domain
-
-### This schema references directly or indirectly by the following schemas:
-
--domain
-
--references
 
 
-
-## Examples
-
-Examples coming soon
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 04/02/2020 03:41:06 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 04:22:50 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

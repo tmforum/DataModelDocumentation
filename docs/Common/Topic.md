@@ -13,34 +13,23 @@ Is a event channel provided by the Event Streaming API
 A JSON Schema corresponding to this data model can be found
 [here](https://github.com/tmforum-rand/schemas/blob/candidates/Common/Topic.schema.json).
 
-No Data Model yet
-
-## Schema Relationships
-
-### This schema is referenced in the following schemas:
-
--
-
-### This schema references the following schemas directly:
-
--references
-
--domain
-
-### This schema references directly or indirectly by the following schemas:
-
--domain
-
--references
+The Data model is defined as shown below:
+- `id` : The identifier of the notification.
+  - Optional
+- `name` : use to identify grouping of events, per domain, per event types, per access control-right and so on.
+  - Optional
+- `href` : Reference of the related entity.
+  - Optional
+- `headerQuery` : is the filter that will be applied on the Event header properties.
+  - Optional
+- `contentQuery` : is the filter that will be applied on the content of the Event.
+  - Optional
 
 
 
-## Examples
-
-Examples coming soon
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 04/02/2020 03:41:06 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 04:22:50 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

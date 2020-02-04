@@ -13,30 +13,19 @@ An event type used to match filter incoming loyalty events.
 A JSON Schema corresponding to this data model can be found
 [here](https://github.com/tmforum-rand/schemas/blob/candidates/Product/LoyaltyEventType.schema.json).
 
-No Data Model yet
-
-## Schema Relationships
-
-### This schema is referenced in the following schemas:
-
--
-
-### This schema references the following schemas directly:
-
-This schema does not reference any other Schemas
-
-### This schema references directly or indirectly by the following schemas:
-
--
+The Data model is defined as shown below:
+- `id` : Unique identifier for the loyalty event type.
+  - Optional
+- `href` : A reference to the loyalty event type.
+  - Optional
+- `eventType` : The type of loyalty event expected to trigger the loyalty rule evaluation, e.g. a CustomerOrder or an Invoice. The eventType should be unique to prevent existing resources not being reused. An eventType that already exists will result in a 422 error.
+  - Optional
 
 
 
-## Examples
-
-Examples coming soon
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 04/02/2020 03:41:06 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 04:22:50 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

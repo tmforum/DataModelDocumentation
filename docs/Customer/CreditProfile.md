@@ -13,34 +13,21 @@ Credit profile for the party (containing credit scoring, ...). By default only t
 A JSON Schema corresponding to this data model can be found
 [here](https://github.com/tmforum-rand/schemas/blob/candidates/Customer/CreditProfile.schema.json).
 
-No Data Model yet
-
-## Schema Relationships
-
-### This schema is referenced in the following schemas:
-
--
-
-### This schema references the following schemas directly:
-
--references
-
--domain
-
-### This schema references directly or indirectly by the following schemas:
-
--domain
-
--references
+The Data model is defined as shown below:
+- `creditProfileDate` : The date the profile was established
+  - Optional
+- `creditRiskRating` : This is an integer whose value is used to rate the risk
+  - Optional
+- `creditScore` : A measure of a person or organizations creditworthiness calculated on the basis of a combination of factors such as their income and credit history
+  - Optional
+- `validFor` : The period for which the profile is valid
+  - Optional
 
 
 
-## Examples
-
-Examples coming soon
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 04/02/2020 03:41:06 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 04:22:51 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

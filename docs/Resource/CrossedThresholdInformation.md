@@ -13,30 +13,25 @@ Identifies the details of the threshold that has been crossed.
 A JSON Schema corresponding to this data model can be found
 [here](https://github.com/tmforum-rand/schemas/blob/candidates/Resource/CrossedThresholdInformation.schema.json).
 
-No Data Model yet
-
-## Schema Relationships
-
-### This schema is referenced in the following schemas:
-
--
-
-### This schema references the following schemas directly:
-
-This schema does not reference any other Schemas
-
-### This schema references directly or indirectly by the following schemas:
-
--
+The Data model is defined as shown below:
+- `direction` : Indicates the threshold crossing direction: up or down.
+  - Optional
+- `granularity` : Indicates the granularity at which the indicator is evaluated for threshold crossing
+  - Optional
+- `indicatorName` : Indicates the name of indicator which crossed the threshold.
+  - Optional
+- `indicatorUnit` : Indicates the unit of the measurement of the indicator corresponding to the threshold that has been crossed.
+  - Optional
+- `observedValue` : Indicates the value of the indicator which crossed the threshold.
+  - Optional
+- `thresholdCrossingDescription` : Indicates further information on the threshold crossing alarm.
+  - Optional
 
 
 
-## Examples
-
-Examples coming soon
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 04/02/2020 03:41:06 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 04:22:51 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

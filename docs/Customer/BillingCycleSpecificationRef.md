@@ -13,34 +13,25 @@ BillingCycleSpecification reference. A description of when to initiate a billing
 A JSON Schema corresponding to this data model can be found
 [here](https://github.com/tmforum-rand/schemas/blob/candidates/Customer/BillingCycleSpecificationRef.schema.json).
 
-No Data Model yet
-
-## Schema Relationships
-
-### This schema is referenced in the following schemas:
-
--
-
-### This schema references the following schemas directly:
-
--references
-
--domain
-
-### This schema references directly or indirectly by the following schemas:
-
--domain
-
--references
+The Data model is defined as shown below:
+- `dateShift` : An offset of a billing/settlement date. The offset is expressed as number of days with regard to the start of the billing/settlement period.
+  - Optional
+- `frequency` : Frequency of the billing cycle (monthly for instance)
+  - Optional
+- `href` : Reference of the billing cycle specification
+  - Optional
+- `id` : Unique identifier of the billing cycle specification
+  - Optional
+- `name` : A short descriptive name
+  - Optional
+- `@referredType` : The actual type of the target instance when needed for disambiguation.
+  - Optional
 
 
 
-## Examples
-
-Examples coming soon
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 04/02/2020 03:41:06 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 04:22:51 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

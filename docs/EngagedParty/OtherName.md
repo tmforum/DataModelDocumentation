@@ -13,34 +13,31 @@ To keep track of other names (for example the old name of a woman before marriag
 A JSON Schema corresponding to this data model can be found
 [here](https://github.com/tmforum-rand/schemas/blob/candidates/EngagedParty/OtherName.schema.json).
 
-No Data Model yet
+The Data model is defined as shown below:
+- `familyName` : Last name
+  - Optional
+- `formattedName` : A formatted name useful for specific contexts (chinese, japanese, korean...)
+  - Optional
+- `fullName` : Full name flatten (first, middle, and last name)
+  - Optional
+- `givenName` : First name
+  - Optional
+- `middleName` : Middle name
+  - Optional
+- `nameType` : Co., Inc., Ltd., Plc., Gmbh.
+  - Optional
+- `title` : useful for titles (aristocratic, social...) Dr, Pr, Sir...
+  - Optional
+- `tradingName` : The name that the organization trades under
+  - Optional
+- `validFor` : The period for which the other name is valid
+  - Optional
 
-## Schema Relationships
-
-### This schema is referenced in the following schemas:
-
--
-
-### This schema references the following schemas directly:
-
--references
-
--domain
-
-### This schema references directly or indirectly by the following schemas:
-
--domain
-
--references
 
 
-
-## Examples
-
-Examples coming soon
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 04/02/2020 03:41:06 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 04:22:51 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

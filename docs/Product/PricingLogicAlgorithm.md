@@ -13,34 +13,25 @@ The PricingLogicAlgorithm entity represents an instantiation of an interface spe
 A JSON Schema corresponding to this data model can be found
 [here](https://github.com/tmforum-rand/schemas/blob/candidates/Product/PricingLogicAlgorithm.schema.json).
 
-No Data Model yet
-
-## Schema Relationships
-
-### This schema is referenced in the following schemas:
-
--
-
-### This schema references the following schemas directly:
-
--references
-
--domain
-
-### This schema references directly or indirectly by the following schemas:
-
--domain
-
--references
+The Data model is defined as shown below:
+- `description` : Description of the PricingLogicAlgorithm
+  - Optional
+- `href` : hyperlink reference of this PricingLogicAlgorithm
+  - Optional
+- `id` : unique id of the PricingLogicAlgorithm
+  - Optional
+- `name` : Name given to the PricingLogicAlgorithm
+  - Optional
+- `plaSpecId` : id of corresponding PricingLogicAlgorithm specification
+  - Optional
+- `validFor` : The period for which the PricingLogicAlgorithm is valid
+  - Optional
 
 
 
-## Examples
-
-Examples coming soon
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 04/02/2020 03:41:06 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 04:22:50 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

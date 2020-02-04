@@ -13,34 +13,35 @@ Association is the class that describe a relationship between two or more entity
 A JSON Schema corresponding to this data model can be found
 [here](https://github.com/tmforum-rand/schemas/blob/candidates/Common/Association.schema.json).
 
-No Data Model yet
+The Data model is defined as shown below:
+- `description` : Description of the association
+  - Optional
+- `href` : Hyperlink reference to this association
+  - Optional
+- `id` : unique identifier of the association
+  - Optional
+- `lastUpdate` : The last modified date of this association object
+  - Optional
+- `lifecycleStatus` : Indicates the current lifecycle status
+  - Optional
+- `name` : Name given to this association
+  - Optional
+- `validFor` : The period for which this association is valid
+  - Optional
+- `version` : Version of this REST resource
+  - Optional
+- `associationSpec` : The specification of this association
+  - Optional
+- `associationRole` : The role of this association
+  - Optional
+- `constraint` : Any constraints in this association
+  - Optional
 
-## Schema Relationships
-
-### This schema is referenced in the following schemas:
-
--
-
-### This schema references the following schemas directly:
-
--references
-
--domain
-
-### This schema references directly or indirectly by the following schemas:
-
--domain
-
--references
 
 
-
-## Examples
-
-Examples coming soon
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 04/02/2020 03:41:06 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 04:22:50 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

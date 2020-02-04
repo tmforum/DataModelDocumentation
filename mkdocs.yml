@@ -42,7 +42,7 @@ pages:
   - {eNodeBAnalytics: Analytics/eNodeBAnalytics.md}
   - {eUICCProfileAnalytics: Analytics/eUICCProfileAnalytics.md}
   - {eUICCUsageAnalytics: Analytics/eUICCUsageAnalytics.md}
-- Common:
+  Common:
   - {AbstractEnvironment: Common/AbstractEnvironment.md}
   - {AbstractEnvironmentDefinition: Common/AbstractEnvironmentDefinition.md}
   - {AbstractEnvironmentRef: Common/AbstractEnvironmentRef.md}
@@ -298,7 +298,7 @@ pages:
   - {Value: Common/Value.md}
   - {WorkLog: Common/WorkLog.md}
   - {pmthreshold: Common/pmthreshold.md}
-- Customer:
+  Customer:
   - {AccumulatedBalance: Customer/AccumulatedBalance.md}
   - {AppliedBillingRate: Customer/AppliedBillingRate.md}
   - {AppliedBillingRateCharacteristic: Customer/AppliedBillingRateCharacteristic.md}
@@ -420,7 +420,7 @@ pages:
   - {TokenizedCardMethod: Customer/TokenizedCardMethod.md}
   - {VoucherDetails: Customer/VoucherDetails.md}
   - {VoucherMethod: Customer/VoucherMethod.md}
-- EngagedParty:
+  EngagedParty:
   - {Account: EngagedParty/Account.md}
   - {AccountBalance: EngagedParty/AccountBalance.md}
   - {AccountBalanceRef: EngagedParty/AccountBalanceRef.md}
@@ -512,14 +512,14 @@ pages:
   - {TaxExemptionCertificate: EngagedParty/TaxExemptionCertificate.md}
   - {TemplateRef: EngagedParty/TemplateRef.md}
   - {Violation: EngagedParty/Violation.md}
-- MarketingSales:
+  MarketingSales:
   - {MarketSegmentRef: MarketingSales/MarketSegmentRef.md}
   - {MarketingCampaignRef: MarketingSales/MarketingCampaignRef.md}
   - {SalesLead: MarketingSales/SalesLead.md}
   - {SalesLeadPriorityType: MarketingSales/SalesLeadPriorityType.md}
   - {SalesLeadStateType: MarketingSales/SalesLeadStateType.md}
   - {SalesOpportunityRef: MarketingSales/SalesOpportunityRef.md}
-- Product:
+  Product:
   - {AlternateProduct: Product/AlternateProduct.md}
   - {AlternateProductOfferingProposal: Product/AlternateProductOfferingProposal.md}
   - {BaseProductRefOrValue: Product/BaseProductRefOrValue.md}
@@ -621,7 +621,7 @@ pages:
   - {UsageVolumeBalance: Product/UsageVolumeBalance.md}
   - {UsageVolumeProduct: Product/UsageVolumeProduct.md}
   - {UsageVolumeProductRef: Product/UsageVolumeProductRef.md}
-- Resource:
+  Resource:
   - {AckAlarms: Resource/AckAlarms.md}
   - {AffectedService: Resource/AffectedService.md}
   - {Alarm: Resource/Alarm.md}
@@ -673,7 +673,7 @@ pages:
   - {ThresholdRef: Resource/ThresholdRef.md}
   - {UnAckAlarms: Resource/UnAckAlarms.md}
   - {UnGroupAlarms: Resource/UnGroupAlarms.md}
-- Service:
+  Service:
   - {AlternateServiceProposal: Service/AlternateServiceProposal.md}
   - {AppliedConsequence: Service/AppliedConsequence.md}
   - {BaseService: Service/BaseService.md}

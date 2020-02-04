@@ -13,34 +13,23 @@ Task resource that requests acknowledgement of problems by the problem handler.
 A JSON Schema corresponding to this data model can be found
 [here](https://github.com/tmforum-rand/schemas/blob/candidates/Service/ProblemAcknowledgement.schema.json).
 
-No Data Model yet
-
-## Schema Relationships
-
-### This schema is referenced in the following schemas:
-
--
-
-### This schema references the following schemas directly:
-
--references
-
--domain
-
-### This schema references directly or indirectly by the following schemas:
-
--domain
-
--references
+The Data model is defined as shown below:
+- `href` : Reference to this task resource
+  - Optional
+- `id` : Unique identifier of this task resource
+  - Optional
+- `problem` : The problems to be acknowledged, relevant in the input to this task
+  - Optional
+- `ackProblem` : The problems that were acknowledged, populated in the output to this task
+  - Optional
+- `trackingRecord` : A record of the action taken in this acknowledgement
+  - Optional
 
 
 
-## Examples
-
-Examples coming soon
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 04/02/2020 03:41:06 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 04:22:50 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon
