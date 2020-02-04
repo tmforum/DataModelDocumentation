@@ -42,7 +42,7 @@ pages:
   - {RatedEventAnalytics: Analytics/RatedEventAnalytics.md}
   - {CustomerHealthStatsAnalytics: Analytics/CustomerHealthStatsAnalytics.md}
   - {eNodeBAnalytics: Analytics/eNodeBAnalytics.md}
-  Common:
+- Common:
   - {NetworkFunction: Common/NetworkFunction.md}
   - {TimePeriod: Common/TimePeriod.md}
   - {TestScenario: Common/TestScenario.md}
@@ -298,7 +298,7 @@ pages:
   - {CalendarEventRef: Common/CalendarEventRef.md}
   - {ContainedItemRef: Common/ContainedItemRef.md}
   - {AssociationRoleSpec: Common/AssociationRoleSpec.md}
-  Customer:
+- Customer:
   - {BalanceAdjustment: Customer/BalanceAdjustment.md}
   - {BillingAccountRef: Customer/BillingAccountRef.md}
   - {AppliedBillingRate: Customer/AppliedBillingRate.md}
@@ -420,7 +420,7 @@ pages:
   - {BalanceAdjust: Customer/BalanceAdjust.md}
   - {AppliedBillingRateCharacteristic: Customer/AppliedBillingRateCharacteristic.md}
   - {BalanceAction: Customer/BalanceAction.md}
-  EngagedParty:
+- EngagedParty:
   - {PartnershipRef: EngagedParty/PartnershipRef.md}
   - {SLA: EngagedParty/SLA.md}
   - {Violation: EngagedParty/Violation.md}
@@ -512,14 +512,14 @@ pages:
   - {AgreementItemRef: EngagedParty/AgreementItemRef.md}
   - {Party: EngagedParty/Party.md}
   - {AgreementAuthorization: EngagedParty/AgreementAuthorization.md}
-  MarketingSales:
+- MarketingSales:
   - {SalesLeadStateType: MarketingSales/SalesLeadStateType.md}
   - {SalesOpportunityRef: MarketingSales/SalesOpportunityRef.md}
   - {SalesLead: MarketingSales/SalesLead.md}
   - {SalesLeadPriorityType: MarketingSales/SalesLeadPriorityType.md}
   - {MarketSegmentRef: MarketingSales/MarketSegmentRef.md}
   - {MarketingCampaignRef: MarketingSales/MarketingCampaignRef.md}
-  Product:
+- Product:
   - {UsageCharacteristic: Product/UsageCharacteristic.md}
   - {ProductSpecCharacteristic: Product/ProductSpecCharacteristic.md}
   - {ProductSpecificationRelationship: Product/ProductSpecificationRelationship.md}
@@ -621,7 +621,7 @@ pages:
   - {LoyaltyRuleAction: Product/LoyaltyRuleAction.md}
   - {ProductSpecCharRelationship: Product/ProductSpecCharRelationship.md}
   - {LoyaltyEventTypeRef: Product/LoyaltyEventTypeRef.md}
-  Resource:
+- Resource:
   - {ResourceEntity: Resource/ResourceEntity.md}
   - {Resource: Resource/Resource.md}
   - {ResourceSpecRelationship: Resource/ResourceSpecRelationship.md}
@@ -673,7 +673,7 @@ pages:
   - {IotDataEvent: Resource/IotDataEvent.md}
   - {ResourceOrderRef: Resource/ResourceOrderRef.md}
   - {ResourceOrder: Resource/ResourceOrder.md}
-  Service:
+- Service:
   - {MetricDefMeasureConsequence: Service/MetricDefMeasureConsequence.md}
   - {ServiceTestCharacteristic: Service/ServiceTestCharacteristic.md}
   - {ServiceOrderRef: Service/ServiceOrderRef.md}
