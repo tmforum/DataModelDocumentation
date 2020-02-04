@@ -420,7 +420,7 @@ pages:
   - {TokenizedCardMethod: Customer/TokenizedCardMethod.md}
   - {VoucherDetails: Customer/VoucherDetails.md}
   - {VoucherMethod: Customer/VoucherMethod.md}
-  EngagedParty:
+- EngagedParty:
   - {Account: EngagedParty/Account.md}
   - {AccountBalance: EngagedParty/AccountBalance.md}
   - {AccountBalanceRef: EngagedParty/AccountBalanceRef.md}
