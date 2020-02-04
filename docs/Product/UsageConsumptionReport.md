@@ -15,23 +15,35 @@ A JSON Schema corresponding to this data model can be found
 
 The Data model is defined as shown below:
 - `bucket` : Bucket(s) included in the offer or option subscribed.
+
   - Optional
+
 - `description` : Free short text describing the usage consumption report content
+
   - Optional
+
 - `effectiveDate` : Date and time when the usage consumption report was calculated and generated
+
   - Optional
+
 - `href` : Hyperlink to access the usage consumption report. The report is calculated at the time of the request by the server. Generally, this report is not recorded by the server. If it is, an unique identifier of the usage consumption report is given by the server
+
   - Optional
+
 - `id` : The report is calculated at the time of the request by the server. Generally, this report is not recorded by the server. If it is, an unique identifier of the usage consumption report is given by the server
+
   - Optional
+
 - `name` : Usage consumption report name
+
   - Optional
+
 
 
 
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 04/02/2020 04:22:50 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 04:45:40 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

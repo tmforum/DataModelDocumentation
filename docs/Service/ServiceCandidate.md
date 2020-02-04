@@ -16,31 +16,51 @@ A JSON Schema corresponding to this data model can be found
 
 The Data model is defined as shown below:
 - `id` : Unique identifier of this REST resource
+
   - Optional
+
 - `href` : Hyperlink reference to this REST resource
+
   - Optional
+
 - `name` : Name given to this REST resource
+
   - Optional
+
 - `description` : Description of this REST resource
+
   - Optional
+
 - `version` : the version of service candidate
+
   - Optional
+
 - `validFor` : The period for which this REST resource is valid
+
   - Optional
+
 - `lastUpdate` : Date and time of the last update of this REST resource
+
   - Optional
+
 - `lifecycleStatus` : Used to indicate the current lifecycle status of the service candidate.
+
   - Optional
+
 - `category` : List of categories for this candidate
+
   - Optional
+
 - `serviceSpecification` : The service specification implied by this candidate
+
   - Optional
+
 
 
 
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 04/02/2020 04:22:50 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 04:45:40 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

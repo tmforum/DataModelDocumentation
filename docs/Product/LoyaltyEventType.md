@@ -15,17 +15,23 @@ A JSON Schema corresponding to this data model can be found
 
 The Data model is defined as shown below:
 - `id` : Unique identifier for the loyalty event type.
+
   - Optional
+
 - `href` : A reference to the loyalty event type.
+
   - Optional
+
 - `eventType` : The type of loyalty event expected to trigger the loyalty rule evaluation, e.g. a CustomerOrder or an Invoice. The eventType should be unique to prevent existing resources not being reused. An eventType that already exists will result in a 422 error.
+
   - Optional
+
 
 
 
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 04/02/2020 04:22:50 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 04:45:40 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

@@ -15,29 +15,47 @@ A JSON Schema corresponding to this data model can be found
 
 The Data model is defined as shown below:
 - `familyName` : Last name
+
   - Optional
+
 - `formattedName` : A formatted name useful for specific contexts (chinese, japanese, korean...)
+
   - Optional
+
 - `fullName` : Full name flatten (first, middle, and last name)
+
   - Optional
+
 - `givenName` : First name
+
   - Optional
+
 - `middleName` : Middle name
+
   - Optional
+
 - `nameType` : Co., Inc., Ltd., Plc., Gmbh.
+
   - Optional
+
 - `title` : useful for titles (aristocratic, social...) Dr, Pr, Sir...
+
   - Optional
+
 - `tradingName` : The name that the organization trades under
+
   - Optional
+
 - `validFor` : The period for which the other name is valid
+
   - Optional
+
 
 
 
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 04/02/2020 04:22:51 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 04:45:40 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

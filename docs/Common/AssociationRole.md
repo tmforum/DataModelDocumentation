@@ -15,21 +15,31 @@ A JSON Schema corresponding to this data model can be found
 
 The Data model is defined as shown below:
 - `href` : Hyperlink reference to the endpoint plays this association role
+
   - Optional
+
 - `id` : The identifier of the endpoint plays this role
+
   - Optional
+
 - `isSource` : A flag indicating if the participant involved in a uni-directional relationship is the source or not. this flag is true If the association is bi-directional (both end points are navigable)
+
   - Optional
+
 - `name` : Name of the endpoint which plays this association role
+
   - Optional
+
 - `role` : The association role of this relationship participant as defined in the associationRoleSpecification
+
   - Optional
+
 
 
 
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 04/02/2020 04:22:50 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 04:45:39 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

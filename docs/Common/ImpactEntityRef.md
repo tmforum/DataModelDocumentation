@@ -16,19 +16,27 @@ A JSON Schema corresponding to this data model can be found
 
 The Data model is defined as shown below:
 - `description` : Description and analysis of the impact of the change request on the Product, Service or Resource.
+
   - Optional
+
 - `href` : Hyperlink to access the impacted party, it could be a party reference or a party role reference.
+
   - Optional
+
 - `id` : Identifier of impacted entity.
+
   - Optional
+
 - `@referredType` : The actual type of the target instance when needed for disambiguation.
+
   - Optional
+
 
 
 
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 04/02/2020 04:22:50 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 04:45:39 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

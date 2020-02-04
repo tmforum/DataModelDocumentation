@@ -15,25 +15,39 @@ A JSON Schema corresponding to this data model can be found
 
 The Data model is defined as shown below:
 - `isLegalEntity` : If value is true, the organization is a legal entity known by a national referential.
+
   - Optional
+
 - `isHeadOffice` : If value is true, the organization is the head office
+
   - Optional
+
 - `organizationType` : Type of Organization (company, department...)
+
   - Optional
+
 - `tradingName` : Name that the organization (unit) trades under
+
   - Optional
+
 - `name` : Organization name (department name for example)
+
   - Optional
+
 - `nameType` : Type of the name : Co, Inc, Ltd,…
+
   - Optional
+
 - `status` : Status of the organization
+
   - Optional
+
 
 
 
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 04/02/2020 04:22:51 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 04:45:40 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

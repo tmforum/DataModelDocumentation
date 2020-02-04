@@ -15,21 +15,31 @@ A JSON Schema corresponding to this data model can be found
 
 The Data model is defined as shown below:
 - `default` : If true, this is the default value for a characteristic
+
   - Optional
+
 - `value` : A narrative that explains in detail what the usage specification characteristic is
+
   - Optional
+
 - `valueFrom` : The low range value that a characteristic can take on
+
   - Optional
+
 - `valueTo` : The upper range value that a characteristic can take on
+
   - Optional
+
 - `valueType` : A kind of value that the characteristic can take on, such as numeric, text
+
   - Optional
+
 
 
 
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 04/02/2020 04:22:50 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 04:45:40 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

@@ -15,19 +15,27 @@ A JSON Schema corresponding to this data model can be found
 
 The Data model is defined as shown below:
 - `preferred` : If true, indicates that is the preferred contact medium
+
   - Optional
+
 - `mediumType` : Type of the contact medium, such as: email address, telephone number, postal address
+
   - Optional
+
 - `validFor` : The time period that the contact medium is valid for
+
   - Optional
+
 - `characteristic` : Any additional characteristic(s) of this contact medium
+
   - Optional
+
 
 
 
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 04/02/2020 04:22:50 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 04:45:39 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

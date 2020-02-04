@@ -17,36 +17,60 @@ A JSON Schema corresponding to this data model can be found
 
 The Data model is defined as shown below:
 - `characteristic` : List of characteristics with values that define the test run
+
   - Optional
+
 - `description` : Description of the service test
+
   - Optional
+
 - `endDateTime` : The end date and time of the service test
+
   - Optional
+
 - `href` : Hyperlink to access the service test
+
   - Optional
+
 - `id` : The identifier of the service test
+
   - Optional
+
 - `mode` : An indication of whether the service test is running in 
 &quot;PROACTIVE&quot; or &quot;ONDEMAND&quot; mode
+
   - Optional
+
 - `name` : The name of the service test
+
   - Optional
+
 - `relatedService` : The actual service being tested
+
   - Optional
+
 - `startDateTime` : The start date and time of the service test.
+
   - Optional
+
 - `state` : The actual state the service test is in
+
   - Optional
+
 - `testMeasure` : The results of the test in terms of the measured metrics
+
   - Optional
+
 - `testSpecification` : The specification for this test
+
   - Optional
+
 
 
 
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 04/02/2020 04:22:51 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 04:45:40 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

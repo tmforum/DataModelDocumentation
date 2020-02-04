@@ -18,31 +18,51 @@ A JSON Schema corresponding to this data model can be found
 
 The Data model is defined as shown below:
 - `category` : List of service categories associated with this catalog
+
   - Optional
+
 - `description` : Description of this catalog
+
   - Optional
+
 - `href` : Unique reference of the service catalog
+
   - Optional
+
 - `id` : Unique identifier of the ServiceCatalog
+
   - Optional
+
 - `lastUpdate` : Date and time of the last update
+
   - Optional
+
 - `lifecycleStatus` : Used to indicate the current lifecycle status
+
   - Optional
+
 - `name` : Name of the service catalog
+
   - Optional
+
 - `relatedParty` : List of parties or party roles related to this category
+
   - Optional
+
 - `validFor` : The period for which the service catalog is valid
+
   - Optional
+
 - `version` : ServiceCatalog version
+
   - Optional
+
 
 
 
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 04/02/2020 04:22:50 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 04:45:40 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

@@ -15,21 +15,31 @@ A JSON Schema corresponding to this data model can be found
 
 The Data model is defined as shown below:
 - `description` : A narrative that explains in detail what the usage specification is
+
   - Optional
+
 - `href` : Reference of usage specification
+
   - Optional
+
 - `id` : Usage specification unique identifier
+
   - Optional
+
 - `name` : The name of the usage specification.
+
   - Optional
+
 - `validFor` : The period for which the usage specification is valid
+
   - Optional
+
 
 
 
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 04/02/2020 04:22:50 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 04:45:40 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

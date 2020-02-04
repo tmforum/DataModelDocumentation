@@ -15,23 +15,35 @@ A JSON Schema corresponding to this data model can be found
 
 The Data model is defined as shown below:
 - `@referredType` : The actual type of the target instance when needed for disambiguation.
+
   - Optional
+
 - `productOrderHref` : Reference of the related entity.
+
   - Optional
+
 - `productOrderId` : Unique identifier of a related entity.
+
   - Mandatory
+
 - `orderItemAction` : Action of the order item for this product
+
   - Optional
+
 - `orderItemId` : Identifier of the order item where the product was managed
+
   - Mandatory
+
 - `role` : role of the product order item for this product
+
   - Optional
+
 
 
 
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 04/02/2020 04:22:50 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 04:45:40 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

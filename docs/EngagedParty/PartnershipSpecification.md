@@ -15,21 +15,31 @@ A JSON Schema corresponding to this data model can be found
 
 The Data model is defined as shown below:
 - `description` : An explanatory text regarding this partnership specification
+
   - Optional
+
 - `href` : The reference url for this partnership specification
+
   - Optional
+
 - `id` : The identifier of the partnership specification
+
   - Optional
+
 - `name` : An identifying name for the partnership specification.
+
   - Mandatory
+
 - `roleSpecification` : The list of roles specifications a engaged party will be able to play for this kind of partnership
+
   - Optional
+
 
 
 
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 04/02/2020 04:22:51 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 04:45:40 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

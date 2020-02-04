@@ -15,25 +15,39 @@ A JSON Schema corresponding to this data model can be found
 
 The Data model is defined as shown below:
 - `eventTime` : Time at which the event occurred
+
   - Optional
+
 - `eventType` : Type of the recorded event
+
   - Optional
+
 - `href` : reference to this resource
+
   - Optional
+
 - `id` : Identifier of the service problem event record.
+
   - Optional
+
 - `recordTime` : Time at which the record was created
+
   - Optional
+
 - `serviceProblem` : The service problem to which this record applies
+
   - Optional
+
 - `notification` : A notification from the possible notifications for Service Problem (such as creation, status change, information required, change)
+
   - Optional
+
 
 
 
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 04/02/2020 04:22:51 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 04:45:40 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

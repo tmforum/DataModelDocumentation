@@ -15,31 +15,51 @@ A JSON Schema corresponding to this data model can be found
 
 The Data model is defined as shown below:
 - `value` : The value of the logical resource, such as: 0044746712345 for an MSISDN
+
   - Optional
+
 - `category` : Category of the concrete resource, such as: Gold, Silver for MSISDN concrete resource
+
   - Optional
+
 - `description` : Free-text description of the resource
+
   - Optional
+
 - `endDate` : The date till the resource is effective
+
   - Optional
+
 - `href` : The URI for the object itself.
+
   - Optional
+
 - `id` : Identifier of an instance of the resource. Required to be unique within the resource type.  Used in URIs as the identifier for specific instances of a type
+
   - Optional
+
 - `lifecycleState` : The life cycle state of the resource
+
   - Optional
+
 - `name` : A string used to give a name to the resource
+
   - Optional
+
 - `startDate` : A date time( DateTime). The date from which the resource is effective
+
   - Optional
+
 - `version` : A field that identifies the specific version of an instance of a resource
+
   - Optional
+
 
 
 
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 04/02/2020 04:22:51 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 04:45:40 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

@@ -15,15 +15,19 @@ A JSON Schema corresponding to this data model can be found
 
 The Data model is defined as shown below:
 - `code` : Code of the settlement method
+
   - Optional
+
 - `label` : A word, term or phrase by which a settlement method is known and distinguished from other settlement method
+
   - Optional
+
 
 
 
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 04/02/2020 04:22:51 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 04:45:40 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

@@ -15,23 +15,35 @@ A JSON Schema corresponding to this data model can be found
 
 The Data model is defined as shown below:
 - `description` : A narrative that explains in detail the semantics of this order item price.
+
   - Optional
+
 - `name` : A short descriptive name such as &quot;Subscription price&quot;.
+
   - Optional
+
 - `priceType` : A category that describes the price, such as recurring, discount, allowance, penalty, and so forth
+
   - Optional
+
 - `productOfferingPrice` : An amount, usually of money, that is asked for or allowed when a ProductOffering is bought, rented, or leased. The price is valid for a defined period of time.
+
   - Optional
+
 - `recurringChargePeriod` : Could be month, week...
+
   - Optional
+
 - `unitOfMeasure` : Could be minutes, GB...
+
   - Optional
+
 
 
 
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 04/02/2020 04:22:51 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 04:45:40 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

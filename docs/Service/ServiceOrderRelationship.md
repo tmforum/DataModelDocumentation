@@ -15,19 +15,27 @@ A JSON Schema corresponding to this data model can be found
 
 The Data model is defined as shown below:
 - `@referredType` : The entity type of the related order
+
   - Optional
+
 - `href` : A hyperlink to the related order
+
   - Optional
+
 - `id` : The id of the related order
+
   - Mandatory
+
 - `relationshipType` : The type of related order, such as: [dependency] if the order needs to be [not started] until another order item is complete (a service order in this case) or [cross-ref] to keep track of the source order (a productOrder)
+
   - Optional
+
 
 
 
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 04/02/2020 04:22:51 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 04:45:40 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

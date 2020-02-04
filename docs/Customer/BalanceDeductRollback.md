@@ -15,21 +15,31 @@ A JSON Schema corresponding to this data model can be found
 
 The Data model is defined as shown below:
 - `description` : Description of the rollback deduct operation
+
   - Optional
+
 - `href` : A resource URI pointing to the resource in the OB that stores the detailed information about a rollback deduction
+
   - Optional
+
 - `id` : Unique Identifier within the server for the rollback deduction  operation request
+
   - Optional
+
 - `requestedDate` : Date when the rollback deduction request was received in the server
+
   - Optional
+
 - `status` : Status of the rollback deduction operation
+
   - Optional
+
 
 
 
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 04/02/2020 04:22:51 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 04:45:40 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

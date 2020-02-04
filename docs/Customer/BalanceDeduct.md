@@ -15,25 +15,39 @@ A JSON Schema corresponding to this data model can be found
 
 The Data model is defined as shown below:
 - `confirmationDate` : Date when the deduction was confirmed in the server
+
   - Optional
+
 - `description` : Description of the deduct  operation
+
   - Optional
+
 - `href` : A resource URI pointing to the resource in the OB that stores the detailed information about a deduction
+
   - Optional
+
 - `id` : Unique Identifier within the server for the deduction  operation request
+
   - Optional
+
 - `requestedDate` : Date when the deduction request was received in the server
+
   - Optional
+
 - `status` : Status of the deduction operation
+
   - Optional
+
 - `deductType` : A preconfigured value that describes a deduct type which determines the prepay balance bucket in which the deduct is done
+
   - Optional
+
 
 
 
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 04/02/2020 04:22:51 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 04:45:40 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

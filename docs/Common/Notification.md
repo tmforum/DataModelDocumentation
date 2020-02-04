@@ -15,21 +15,31 @@ A JSON Schema corresponding to this data model can be found
 
 The Data model is defined as shown below:
 - `eventId` : Identifier of the event
+
   - Optional
+
 - `eventTime` : Creation date of the event
+
   - Optional
+
 - `eventType` : Type of event
+
   - Optional
+
 - `fieldPath` : details which field is missing, its structure is quite similar to GET filter criteria
+
   - Optional
+
 - `resourcePath` : To indicate which entity is concerned
+
   - Optional
+
 
 
 
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 04/02/2020 04:22:50 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 04:45:39 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

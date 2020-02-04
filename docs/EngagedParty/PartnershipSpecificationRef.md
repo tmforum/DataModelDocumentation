@@ -15,19 +15,27 @@ A JSON Schema corresponding to this data model can be found
 
 The Data model is defined as shown below:
 - `href` : Reference url for the partnership specification
+
   - Optional
+
 - `id` : Identifier of the partnership specification
+
   - Optional
+
 - `name` : Name of the partnership specification
+
   - Optional
+
 - `@referredType` : The actual type of the target instance when needed for disambiguation.
+
   - Optional
+
 
 
 
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 04/02/2020 04:22:51 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 04:45:40 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

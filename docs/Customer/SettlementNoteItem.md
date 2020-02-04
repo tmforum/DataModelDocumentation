@@ -15,25 +15,39 @@ A JSON Schema corresponding to this data model can be found
 
 The Data model is defined as shown below:
 - `itemId` : Unique identifier of the settlement note item
+
   - Optional
+
 - `itemLabel` : A free description text for the settlement note item
+
   - Optional
+
 - `itemNumber` : Unique number assigned to the settlement note item
+
   - Optional
+
 - `quantity` : Quantity
+
   - Optional
+
 - `taxExcludedAmount` : Tax excluded amount equal to quantity * taxExcludedUnitPrice
+
   - Optional
+
 - `taxExcludedUnitPrice` : Tax excluded unit price to be applied on the given quantity
+
   - Optional
+
 - `taxIncludedAmount` : All taxes included amount equal to taxExcludedAmount + taxAmount
+
   - Optional
+
 
 
 
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 04/02/2020 04:22:51 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 04:45:40 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon

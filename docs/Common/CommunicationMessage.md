@@ -15,44 +15,76 @@ A JSON Schema corresponding to this data model can be found
 
 The Data model is defined as shown below:
 - `content` : The content of the communication message
+
   - Optional
+
 - `description` : Description for the whole object
+
   - Optional
+
 - `href` : Hypertext Reference of the Communication Message
+
   - Optional
+
 - `id` : Unique identifier of Communication Message
+
   - Optional
+
 - `priority` : The priority of the communication message.
 Small number means higher priority.
+
   - Optional
+
 - `scheduledSendTime` : The scheduled time for sending the communication message
+
   - Optional
+
 - `sendTime` : The time of sending communication message
+
   - Optional
+
 - `sendTimeComplete` : The time of completion of sending communication message
+
   - Optional
+
 - `state` : Status of communication message
+
   - Optional
+
 - `subject` : The title of the message, necessary for the email and mobile app push
+
   - Optional
+
 - `tryTimes` : How many times do you want to retry the delivery of this message?
+
   - Optional
+
 - `messageType` : The type of message, such as: SMS, Email, Mobile app push notification
+
   - Optional
+
 - `attachment` : Any attachment associated with this message
+
   - Optional
+
 - `receiver` : The receiver(s) of this message
+
   - Optional
+
 - `sender` : The sender of this message
+
   - Optional
+
 - `characteristic` : Any additional characteristic(s) of this message
+
   - Optional
+
 
 
 
 
 ## TMForum APIs that use this schema
 
-Taking into consideration the snapshot of 04/02/2020 04:22:50 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
+Taking into consideration the snapshot of 04/02/2020 04:45:39 UTC the list of [TMForum Open APIs](https://www.tmforum.org/open-apis/) that uses this schemas is:
 
 Coming soon
