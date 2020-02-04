@@ -2,7 +2,6 @@ docs_dir: docs/
 google_analytics: [UA-3242766-37, tmforum-schemas.readthedocs.io]
 pages:
 - {Home: home.html}
-<<<<<<< HEAD
 - {Schemas Overview: overview.html}
 - Analytics:
   - {SwitchXDRAnalytics: Analytics/SwitchXDRAnalytics.md}
@@ -48,28 +47,6 @@ pages:
   - {TimePeriod: Common/TimePeriod.md}
   - {TestScenario: Common/TestScenario.md}
   - {ThresholdType: Common/ThresholdType.md}
-=======
-- {How to: howto.md}
-- {Schemas Overview: overview.html}
-- Domains:
-  - {Common: Domains/Common.md}
-  - {Customer: Domains/Customer.md}
-  - {EngagedParty: Domains/EngagedParty.md}
-  - {Marketing Sales: Domains/MarketingSales.md}
-  - {Product: Domains/Product.md}
-  - {Resource: Domains/Resource.md}
-  - {Service: Domains/Service.md}
-- Common:
-  - {EntityCategory: Common/EntityCategory.md}
-  - {ChangeRequestSpecification: Common/ChangeRequestSpecification.md}
-  - {RelatedPlace: Common/RelatedPlace.md}
-  - {EntityCatalogItem: Common/EntityCatalogItem.md}
-  - {Duration: Common/Duration.md}
-  - {DocumentCharacteristic: Common/DocumentCharacteristic.md}
-  - {Association: Common/Association.md}
-  - {AlternateGeographicAddress: Common/AlternateGeographicAddress.md}
-  - {RelatedGeographicAddressRefOrValue: Common/RelatedGeographicAddressRefOrValue.md}
->>>>>>> d90e398f0f46eb223d2110f647ac1d02e63bf0a8
   - {Money: Common/Money.md}
   - {GeographicSiteRef: Common/GeographicSiteRef.md}
   - {RelatedGeographicAddressRefOrValue: Common/RelatedGeographicAddressRefOrValue.md}
